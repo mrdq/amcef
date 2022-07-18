@@ -1,0 +1,2165 @@
+# Translation of Plugins - Smush &#8211; Lazy Load Images, Optimize &amp; Compress Images - Stable (latest release) in Slovak
+# This file is distributed under the same license as the Plugins - Smush &#8211; Lazy Load Images, Optimize &amp; Compress Images - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-02-15 08:42:08+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: sk\n"
+"Project-Id-Version: Plugins - Smush &#8211; Lazy Load Images, Optimize &amp; Compress Images - Stable (latest release)\n"
+
+#. translators: %1$s - link, %2$s - closing link tag
+#: core/modules/class-cdn.php:308
+msgid "Note: Smush will use the %1$srest_pre_echo_response%2$s hook to filter images in REST API responses."
+msgstr "Poznámka: Smush použije na filtrovanie obrázkov v REST API rozhranie %1$srest_pre_echo_response%2$s."
+
+#: core/modules/class-backup.php:744
+msgid "Error getting file name"
+msgstr "Chybný názov obrázku"
+
+#: core/modules/class-cdn.php:251
+msgid "REST API"
+msgstr "REST API"
+
+#: core/modules/class-cdn.php:250
+msgid "Enable REST API support"
+msgstr "Zapnúť REST API podporu"
+
+#: core/modules/class-resize-detection.php:136
+msgid "All images are properly sized"
+msgstr "Všetky obrázky majú správnu veľkosť"
+
+#: core/modules/class-cdn.php:252
+msgid "Smush can automatically replace image URLs when fetched via REST API endpoints."
+msgstr "Smush môže automaticky nahradiť URL adresy obrázkov, keď sa načíta prostredníctvom koncových bodov rozhrania REST API."
+
+#: core/external/plugin-notice/notice.php:317
+msgid "Create dynamic forms easily and quickly with our form builder."
+msgstr "Vytvárajte dynamické formuláre ľahko a rýchlo pomocou nášho nástroja na tvorbu formulárov."
+
+#: core/external/plugin-notice/notice.php:285
+msgid "Resize, optimize and compress all of your images to the max."
+msgstr "Zmeňte veľkosť, optimalizujte a komprimujte všetky svoje obrázky na maximum."
+
+#: app/modals/onboarding.php:58 core/class-settings.php:240
+msgid "Photos often store camera settings in the file, i.e., focal length, date, time and location. Removing EXIF data reduces the file size. Note: it does not strip SEO metadata."
+msgstr "Fotografie často ukladajú nastavenia fotoaparátu do súboru,napr.ohniskovú vzdialenosť, dátum, čas a miesto. Odstránením údajov EXIF sa zmenší veľkosť súboru. Poznámka: neodstráni SEO metadáta."
+
+#: app/views/cdn/disabled-meta-box.php:24 app/views/cdn/upsell-meta-box.php:23
+#: app/views/dashboard/cdn/meta-box.php:20
+msgid "Multiply the speed and savings! Upload huge images and the Smush CDN will perfectly resize the files, safely convert to a Next-Gen format (WebP), and delivers them directly to your visitors from our blazing-fast multi-location globe servers."
+msgstr "Znásobte rýchlosť a úspory! Nahrajte obrovské obrázky a server Smush CDN, ktorý dokonale upraví veľkosť súborov, bezpečne ich skonvertuje do formátu Next-Gen (WebP) a doručí ich priamo vašim návštevníkom z našich rýchlo sa rozvíjajúcich serverov."
+
+#: core/external/plugin-notice/notice.php:293
+msgid "Add powerful caching and optimize your assets."
+msgstr "Pridajte výkonné ukladanie do vyrovnávacej pamäte a optimalizujte."
+
+#. translators: %s - plugin name
+#: core/external/plugin-notice/notice.php:193
+msgid "Enjoying %s? Try out a few of our other popular free plugins..."
+msgstr "Tešíte sa %s? Vyskúšajte niekoľko našich ďalších populárnych bezplatných pluginov ..."
+
+#: core/external/plugin-notice/notice.php:301
+msgid "Secure and protect your site from malicious hackers and bots."
+msgstr "Zabezpečte a ochráňte svoju webovú stránku pred hackermi a škodlivými robotmi."
+
+#: core/external/plugin-notice/notice.php:309
+msgid "Configure your markup for optimal page and social ranking."
+msgstr "Nakonfigurujte svoje hodnoty pre optimálne hodnotenie stránok a sociálnych sietí."
+
+#: app/modals/onboarding.php:62 app/views/dashboard/lazy-load-meta-box.php:19
+#: app/views/lazyload/disabled-meta-box.php:23
+#: app/views/lazyload/meta-box.php:25
+msgid "This feature stops offscreen images from loading until a visitor scrolls to them. Make your page load faster, use less bandwidth and fix the “defer offscreen images” recommendation from a Google PageSpeed test."
+msgstr "Táto funkcia zastaví načítavanie obrazov mimo obrazovky, kým na ne návštevník neprejde. Zrýchlite tým načítavanie svojej webovej stránky, použijete menšiu šírku pásma a opravíte odporúčanie „odložiť obrázky mimo obrazovky“ testu Google PageSpeed."
+
+#: app/views/smush-upgrade-page.php:61
+msgid "Play"
+msgstr "Prehrať"
+
+#: app/views/smush-upgrade-page.php:59
+msgid "Learn why Smush Pro is the best image optimization plugin."
+msgstr "Zistite, prečo je Smush Pro najlepším pluginom na optimalizáciu obrázkov."
+
+#: app/views/smush-upgrade-page.php:58
+msgid "Optimize unlimited images with Smush Pro"
+msgstr "Optimalizujte neobmedzene so Smush Pro"
+
+#. translators: %1$d - number of failed images, %2$d - total number of images
+#: app/pages/class-directory.php:139
+msgid "%d resulted in an error"
+msgid_plural "%1$d/%2$d images resulted in an error, check the logs for more information"
+msgstr[0] "%d chybný obrázok"
+msgstr[1] "%1$d/%2$d chybné obrázky"
+msgstr[2] "%1$d/%2$d chybných obrázkov"
+
+#: app/pages/class-directory.php:98
+msgid "Image compression complete."
+msgstr "Kompresia obrázka je dokončená."
+
+#: app/class-media-library.php:524
+msgid "Undo"
+msgstr "Späť"
+
+#. translators: %1$s: new line, %2$s: image size
+#: app/class-media-library.php:491
+msgid "%1$sImage size: %2$s"
+msgstr "%1$s Veľkosť obrázka: %2$s"
+
+#. translators: %1$s: bytes savings, %2$s: percentage savings
+#: app/class-media-library.php:481
+msgid "Reduced by %1$s (%2$s)"
+msgstr "Zmenšený o %1$s (%2$s)"
+
+#: app/class-media-library.php:457 core/class-core.php:321
+msgid "Ignored from auto-smush"
+msgstr "Ignorovanie z auto-smush"
+
+#. translators: %1$d - number of skipped images, %2$d - total number of images,
+#. %3$d - number of failed images
+#: app/pages/class-directory.php:151
+msgid "%1$d/%2$d images were skipped because they were already optimized and %3$d/%2$d images resulted in an error"
+msgstr "%1$d/%2$d obrázkov bolo preskočených, pretože ich nebolo možné optimalizovať a %3$d/%2$d obrázkov skončilo s chybou."
+
+#. translators: %1$d - number of skipped images, %2$d - total number of images
+#: app/pages/class-directory.php:126
+msgid "%d image was skipped because it was already optimized"
+msgid_plural "%1$d/%2$d images were skipped because they were already optimized"
+msgstr[0] "%d obrázok bol preskočený, lebo už bol optimalizovaný"
+msgstr[1] "%1$d/%2$d obrázkov bol preskočených, lebo už boli optimalizované"
+msgstr[2] "%1$d/%2$d obrázkov bol preskočených, lebo už boli optimalizované"
+
+#: app/class-media-library.php:240 app/class-media-library.php:310
+msgid "Smush: Not processed"
+msgstr "Smush: Nespracované"
+
+#: app/class-admin.php:482
+msgid "Manage Plugins"
+msgstr "Správa pluginov"
+
+#: app/class-admin.php:476
+msgid "You have multiple WordPress image optimization plugins installed. This may cause unpredictable behavior while optimizing your images, inaccurate reporting, or images to not display. For best results use only one image optimizer plugin at a time. These plugins may cause issues with Smush:"
+msgstr "Máte nainštalovaných niekoľko pluginov na optimalizáciu obrázkov vo WordPresse. To môže spôsobiť nepredvídateľné správanie pri optimalizácii vašich obrázkov, nepresné štatistiky alebo nezobrazenie obrázkov. Najlepšie výsledky dosiahnete, ak použijete iba jeden plugin na optimalizáciu obrázkov. Tieto pluginy môžu spôsobiť problémy so službou Smush:"
+
+#: app/class-admin.php:259
+msgid "Premium Support"
+msgstr "Prémiová podpora"
+
+#: app/class-admin.php:255
+msgid "View details"
+msgstr "Zobraziť podrobnosti"
+
+#: app/class-admin.php:249
+msgid "Rate Smush"
+msgstr "Hodnotenie Smush"
+
+#: app/class-admin.php:218
+msgid "View Smush Documentation"
+msgstr "Pozrite si Smush dokumentáciu"
+
+#: app/class-admin.php:211 app/class-admin.php:212
+msgid "Renew Membership"
+msgstr "Obnoviť členstvo"
+
+#. Author URI of the plugin
+msgid "https://profiles.wordpress.org/wpmudev/"
+msgstr "https://profiles.wordpress.org/wpmudev/"
+
+#: app/views/lazyload/meta-box.php:100
+msgid "iframe"
+msgstr "iframe"
+
+#: app/views/smush-upgrade-page.php:159
+msgid "Try it for free"
+msgstr "Vyskúšajte zdarma"
+
+#: app/views/integrations/meta-box.php:57 app/views/smush-upgrade-page.php:27
+msgid "Try Smush Pro for Free"
+msgstr "Vyskúšajte Smush Pro zadarmo"
+
+#: app/modals/onboarding.php:130
+msgid "First step"
+msgstr "Preskočiť"
+
+#: app/modals/restore-images.php:26
+msgid "Restoring images..."
+msgstr "Obnovujem obrázky..."
+
+#: app/class-media-library.php:236
+msgid "Filter by Smush status"
+msgstr "Filtrovať podľa stavu Smush"
+
+#: app/modals/restore-images.php:34 app/modals/webp-delete-all.php:29
+msgid "Close this modal"
+msgstr "Zatvorte tento spôsob"
+
+#: core/integrations/class-nextgen.php:263
+msgid "To use this feature you need to be using NextGen Gallery."
+msgstr "Na používanie tejto funkcie, musíte používať galériu NextGen."
+
+#: core/integrations/class-composer.php:91
+msgid "To use this feature you need be using WPBakery Page Builder."
+msgstr "Na používanie tejto funkcie, musíte používať WPBakery Page Builder.."
+
+#: app/class-media-library.php:531 app/class-media-library.php:689
+msgid "Ignore"
+msgstr "Ignorovať"
+
+#: app/common/progress-bar.php:52
+msgid "images smushed"
+msgstr "zmenšovanie obrázkov"
+
+#: app/pages/class-bulk.php:228
+msgid "As of WordPress 5.3, large image uploads are resized down to a specified max width and height. If you require images larger than 2560px, you can override this setting here."
+msgstr "Od verzie WordPress 5.3 sa veľkosť nahraných obrázkov zmení na maximálnu šírku a výšku. Ak potrebujete obrázky väčšie ako 2560 px, môžete toto nastavenie upraviť tu."
+
+#: core/class-helper.php:354
+msgid "Couldn't process image due to bad headers. Try re-saving the image in an image editor, then upload it again."
+msgstr "Obrázok sa nepodarilo spracovať kvôli nesprávnym hlavičkám. Skúste obrázok znova uložiť v editore obrázkov a potom ho znova nahrať."
+
+#: app/common/footer-plugins-upsell.php:67
+msgid "Your All-in-One WordPress Platform"
+msgstr "Vaša platforma WordPress všetko v jednom"
+
+#: app/views/smush-upgrade-page.php:156
+msgid "Get Smush Pro, and get a faster WordPress"
+msgstr "Získajte Smush Pro a urobte váš WordPress rýchlejším"
+
+#: app/views/smush-upgrade-page.php:154
+msgid "97% of customers are happy with WPMU DEV's service, and it’s a great time to join them: as a Smush user you’ll get a free trial, so you can see what all the fuss is about."
+msgstr "97% zákazníkov je spokojných so službami WPMU DEV a práve teraz je ten správny čas, aby ste sa k nim pripojili: ako používateľ Smush dostanete bezplatnú skúšobnú verziu, aby ste videli, o čom to všetko je."
+
+#: app/views/smush-upgrade-page.php:147
+msgid "You'll be delighted with Smush Pro. You've got a no risk free trial to test the WPMU DEV Membership, and if you continue but change your mind, you can cancel any time."
+msgstr "So Smush Pro budete nadšení. Máte bezplatnú skúšobnú verziu na testovanie členstva vo WPMU DEV. Ak budete pokračovať, ale neskôr zmeníte názor, môžete to kedykoľvek zrušiť."
+
+#: app/views/dashboard/upsell/meta-box.php:40
+#: app/views/smush-upgrade-page.php:146
+msgid "The WPMU DEV Guarantee"
+msgstr "Záruka WPMU DEV"
+
+#: app/views/smush-upgrade-page.php:142
+msgid "We can’t stress this enough: our outstanding WordPress support is available with live chat 24/7, and we’ll help you with absolutely any WordPress issue – not just our products. It’s an expert WordPress team on call for you, whenever you need them."
+msgstr "Nemajte obavy: naša vynikajúca podpora WordPress je k dispozícii s live chatom 24/7 a pomôže vám s akýmkoľvek problémom - nielen s našimi produktmi. Je to odborný tím pre WordPress, ktorý vám pomôže, kedykoľvek ich budete potrebovať."
+
+#: app/views/dashboard/upsell/meta-box.php:36
+#: app/views/smush-upgrade-page.php:141
+msgid "24/7 live WordPress support"
+msgstr "24/7 WordPress podpora"
+
+#: app/views/smush-upgrade-page.php:137
+msgid "You can manage unlimited WordPress sites with automated updates, backups, security, and performance! – checks, all in one place. All of this can be white labeled for your clients, and you even get our 24/7 live WordPress support."
+msgstr "Môžete spravovať neobmedzený počet WordPress webov, automatický aktualizovať, zálohovať, zabezpečiť ! - Všetko na jednom mieste. To všetko môže byť pre vašich klientov výhodou a vy získate dokonca našu nepretržitú podporu WordPress."
+
+#: app/views/smush-upgrade-page.php:136
+msgid "The Hub - Manage unlimited WordPress sites"
+msgstr "Hub - Spravujte neobmedzený počet WordPress webových stránok"
+
+#: app/views/smush-upgrade-page.php:127
+msgid "You’ll get our full suite of premium WordPress plugins, making sure from Security to Backups to Marketing and SEO you’ve got all the WordPress solutions you can possible need. You get unlimited usage on unlimited sites, and can join the millions using our plugins."
+msgstr "Získate celú sadu prémiových WordPress pluginov, od zabezpečenia cez zálohy po marketing a SEO, takže máte všetky riešenia pre WordPress, ktoré môžete potrebovať. Získate neobmedzené využitenie na neobmedzenom počte webových stránok."
+
+#: app/views/smush-upgrade-page.php:126
+msgid "Premium WordPress plugins"
+msgstr "Premium WordPress pluginy"
+
+#: app/views/smush-upgrade-page.php:117
+msgid "Smush looks for additional savings and automatically converts PNG files to JPEG if it will further reduce the size without a visible drop in quality. Now that's smart image compression."
+msgstr "Program Smush hľadá ďalšie úspory a automaticky prevádza súbory PNG do formátu JPEG, bez viditeľného poklesu kvality. Teraz je to inteligentná kompresia obrazu."
+
+#: app/views/smush-upgrade-page.php:112
+msgid "Use the blazing-fast Smush image CDN to automatically resize your files to the perfect size and serve WebP files 25% smaller than PNG and JPG compression from 45 locations around the globe."
+msgstr "Použite blazing-fast Smush image CDN na automatickú zmenu veľkosti súborov na perfektnú veľkosť a WebP súbory budú o 25% menšie ako kompresia PNG a JPG."
+
+#: app/views/smush-upgrade-page.php:31
+msgid "customers"
+msgstr "zákazníci"
+
+#: app/views/smush-upgrade-page.php:106
+msgid "No limits, no restrictions"
+msgstr "Žiadne limity, žiadne obmedzenia"
+
+#: app/views/smush-upgrade-page.php:98
+msgid "Upgrading to Pro will get you the following benefits."
+msgstr "Inovovaním na Pro získate nasledujúce výhody."
+
+#: app/views/smush-upgrade-page.php:31
+msgid "5.0 rating from"
+msgstr "5.0 hodnotenie"
+
+#: app/class-admin.php:275
+msgid "Dashboard"
+msgstr "Nástenka"
+
+#: core/modules/class-cdn.php:913
+msgid "Too many requests, please try again in a moment."
+msgstr "Príliš veľa žiadostí, skúste to o chvíľu znova."
+
+#: app/views/settings/permissions-meta-box.php:20
+#: _src/react/modules/configs.jsx:151
+#: app/assets/js/smush-react-configs.min.js:6377
+msgid "Subsite Controls"
+msgstr "Kontroly podstránok"
+
+#. translators: %1$s - link, %2$s - closing link tag
+#: core/modules/class-cdn.php:300
+msgid "For any non-media library uploads, you can still use the %1$sDirectory Smush%2$s feature to compress them, they just won’t be served from the CDN."
+msgstr "Ak chcete nahrať súbory nie z mediálnej knižnice, môžete na kompresiu použíť funkciu %1$s Adresár Smush %2$s, avšak tie sa nebudú prenášať z CDN."
+
+#: app/views/settings/permissions-meta-box.php:23
+msgid "By default, subsites will inherit your network settings. Choose which modules you want to allow subsite admins to override."
+msgstr "V predvolenom nastavení, podstránoky zdedia vaše sieťové nastavenia. Vyberte moduly, ktoré chcete povoliť správcom podstránok."
+
+#. translators: %1$s - link, %2$s - closing link tag
+#: core/modules/class-cdn.php:293
+msgid "Note: For this feature to work your theme’s background images must be declared correctly using the default %1$swp_attachment%2$s functions."
+msgstr "Poznámka: Aby táto funkcia fungovala, obrázky pozadia na vašej téme musia byť správne definované pomocou funkcií %1$swp_attachment%2$s."
+
+#: core/modules/class-cdn.php:236
+msgid "Background Images"
+msgstr "Obrázky na pozadí"
+
+#: app/views/cdn/upsell-meta-box.php:37 core/modules/class-cdn.php:235
+msgid "Serve background images from the CDN"
+msgstr "Načítaj podkladové obrázky z CDN"
+
+#: app/views/settings/permissions-meta-box.php:64
+msgid "Choose which modules settings subsite admins have access to."
+msgstr "Vyberte, ku ktorým modulom majú správcovia podstránok prístup."
+
+#: app/views/settings/permissions-meta-box.php:58
+msgid "Subsite admins can override all module settings."
+msgstr "Správcovia podstránok môžu prepísať všetky nastavenia modulu."
+
+#: app/views/lazyload/meta-box.php:313
+msgid "Select"
+msgstr "Zvoliť"
+
+#: app/views/lazyload/meta-box.php:303
+msgid "Background color"
+msgstr "Farba pozadia"
+
+#: app/views/lazyload/meta-box.php:255
+msgid "Image"
+msgstr "Obrázok"
+
+#: app/views/lazyload/meta-box.php:253
+msgid "Display a placeholder to display instead of the actual image during lazy loading. You can choose a predefined image, or upload your own."
+msgstr "Zobraziť dočastný znak, ktorý sa má počas opstupného načítania zobraziť namiesto skutočného obrázka. Môžete si vybrať preddefinovaný znak, alebo nahrať svoj vlastný."
+
+#: app/views/lazyload/meta-box.php:262 app/views/lazyload/meta-box.php:275
+msgid "Placeholder image"
+msgstr "Dočasný znak"
+
+#: app/views/settings/permissions-meta-box.php:50
+msgid "Subsite admins can't override any module settings and will always inherit your network settings."
+msgstr "Správcovia podstránok nemôžu prepísať žiadne nastavenia modulu a vždy zdedia vaše sieťové nastavenia."
+
+#: app/views/lazyload/meta-box.php:323
+msgid "Images will flash into view as soon as they are ready to display."
+msgstr "Obrázky zasvietia, hneď ako budú pripravené na zobrazenie."
+
+#: app/views/lazyload/meta-box.php:243 app/views/lazyload/meta-box.php:295
+msgid "Remove file"
+msgstr "Odstrániť súbor"
+
+#: app/views/lazyload/meta-box.php:238 app/views/lazyload/meta-box.php:290
+msgid "Upload file"
+msgstr "Nahrajte súbor"
+
+#: app/views/lazyload/meta-box.php:169
+msgid "Placeholder"
+msgstr "Dočasný"
+
+#: app/views/lazyload/meta-box.php:154
+msgid "Choose how you want the non-loaded image to look."
+msgstr "Vyberte, ako má vyzerať nenačítaný obrázok."
+
+#: app/views/lazyload/meta-box.php:152
+msgid "Display"
+msgstr "Zobraziť"
+
+#: app/views/lazyload/meta-box.php:148
+msgid "Choose how you want preloading images to be displayed, as well as how they animate into view."
+msgstr "Vyberte, ako chcete zobraziť predbežné načítanie obrázkov a ako sa majú zobrazovať animácie."
+
+#: app/views/lazyload/meta-box.php:145
+msgid "Display & Animation"
+msgstr "Zobrazenia a Animávie"
+
+#: app/views/lazyload/meta-box.php:209 app/views/lazyload/meta-box.php:223
+msgid "Spinner image"
+msgstr "Obrázok spinneru"
+
+#: app/views/lazyload/meta-box.php:200
+msgid "Display a spinner where the image will be during lazy loading. You can choose a predefined spinner, or upload your own GIF."
+msgstr "Zobraziť spinner tam, kde bude prebiehať postupné načítanie (lazy loading). Môžete si vybrať preddefinovaný spinner, alebo nahrať svoj vlastný GIF."
+
+#: app/views/lazyload/meta-box.php:180
+msgid "Once the image has loaded, choose how you want the image to display when it comes into view."
+msgstr "Po načítaní obrázka vyberte, ako sa má obrázok zobraziť."
+
+#: app/modals/restore-images.php:156
+msgid "Retry"
+msgstr "Skúsiť znovu"
+
+#: app/modals/restore-images.php:93 _src/react/views/webp/step-footer.jsx:157
+#: app/assets/js/smush-react-webp.min.js:1251
+msgid "Finish"
+msgstr "Dokončiť"
+
+#: app/modals/restore-images.php:87
+msgid "images were successfully restored."
+msgstr "Obrázky boli úspešne obnovené."
+
+#: app/modals/restore-images.php:77
+msgid "Initializing restore..."
+msgstr "Prebieha obnovenie ..."
+
+#: app/modals/restore-images.php:55
+msgid "Confirm"
+msgstr "Potvrdiť"
+
+#: app/modals/restore-images.php:45
+msgid "Your bulk restore has finished running."
+msgstr "Hromadná obnova bola dokončená."
+
+#: app/modals/restore-images.php:43
+msgid "Your bulk restore is still in progress, please leave this tab open while the process runs."
+msgstr "Hromadné obnovenie stále prebieha, nechajte prosím toto okno otvorené počas procesu."
+
+#: app/modals/restore-images.php:41
+msgid "Are you sure you want to restore all image thumbnails to their original, non-optimized states?"
+msgstr "Naozaj chcete obnoviť všetky miniatúry obrázkov do pôvodného stavu bez optimalizácie?"
+
+#: app/modals/restore-images.php:28
+msgid "Restore complete"
+msgstr "Obnovenie bolo dokončené"
+
+#: app/modals/restore-images.php:24 app/views/bulk-settings/meta-box.php:70
+msgid "Restore Thumbnails"
+msgstr "Obnoviť miniatúry"
+
+#: app/modals/restore-images.php:129
+msgid "View item in Media Library"
+msgstr "Zobraziť položku v knižnici médií"
+
+#: app/modals/restore-images.php:140
+msgid "Note: You can find all the images which couldn't be restored (still smushed) in your %1$sMedia Library%2$s."
+msgstr "Poznámka: Všetky obrázky, ktoré nebolo možné obnoviť (stále sa upravujú), nájdete vo svojej %1$s Knižnici média %2$s."
+
+#: app/modals/restore-images.php:101
+msgid "images were successfully restored but some were unrecoverable. You can try again, or re-upload these images."
+msgstr "obrázky boli úspešne obnovené, ale niektoré sa obnoviť nepodarilo. Môžete to skúsiť znova alebo ich nahrajte ešte raz."
+
+#: app/modals/onboarding.php:91
+msgid "Enable Lazy Loading"
+msgstr "Povoliť neskoršie načítanie"
+
+#: app/pages/class-settings.php:219
+msgid "Error detecting language"
+msgstr "Chyba pri zisťovaní jazyka"
+
+#: core/integrations/class-composer.php:69
+msgid "WPBakery Page Builder"
+msgstr "WPBakery Page Builder"
+
+#. translators: %1$d - attachment ID, %2$s - error.
+#: core/class-cli.php:204
+msgid "Error compressing image (ID: %1$d). %2$s"
+msgstr "Chyba pri zmenšovaní obrázku (ID: %1$d). %2$s"
+
+#: app/class-abstract-summary-page.php:254
+#: app/views/dashboard/cdn/meta-box.php:80
+#: app/views/dashboard/integrations-meta-box.php:51
+#: app/views/dashboard/summary-meta-box.php:101
+#: app/views/dashboard/summary-meta-box.php:126
+#: app/views/dashboard/summary-meta-box.php:148
+#: app/views/dashboard/tools-meta-box.php:37 core/class-configs.php:642
+msgid "Active"
+msgstr "Aktívny"
+
+#: app/class-abstract-summary-page.php:249
+msgid "Activating"
+msgstr "Aktivujem"
+
+#: app/class-abstract-summary-page.php:246
+msgid "Needs upgrade"
+msgstr "Potrebná aktualizácia"
+
+#: core/class-settings.php:229
+msgid "Automatic compression"
+msgstr "Automatická kompresia"
+
+#: core/class-settings.php:225
+msgid "WordPress generates multiple image thumbnails for each image you upload. Choose which of those thumbnail sizes you want to include when bulk smushing."
+msgstr "WordPress generuje viac miniatúr z obrázka, ktorý nahrajete. Vyberte, ktorú z týchto miniatúr chcete zahrnúť do hromadnej úpravy."
+
+#: core/class-settings.php:224
+msgid "Image Sizes"
+msgstr "Rozmery obrázkov"
+
+#: core/integrations/class-composer.php:70
+msgid "Allow smushing images resized in WPBakery Page Builder editor."
+msgstr "V editore WPBakery Page Builder povoľte zmenu veľkosti obrázkov."
+
+#: core/integrations/class-composer.php:68
+msgid "Enable WPBakery Page Builder integration"
+msgstr "Povoliť prepojenie s WPBakery Page Builder"
+
+#: app/views/settings/data-meta-box.php:67
+msgid "If you're having issues with enabling pro features you can force the API to update your membership status here."
+msgstr "Ak máte problémy s pripojením pro funkcií, môžete cez API rozhranie aktualizovať svoje členstvo."
+
+#: app/views/settings/data-meta-box.php:65
+msgid "API Status"
+msgstr "API Status"
+
+#: core/class-settings.php:255
+msgid "This will add functionality to your website that highlights images that are either too large or too small for their containers."
+msgstr "Týmto pridáte funkciu, ktorá na vašej webovej stránke zvýrazní obrázky, ktoré sú pre svoje kontajnery príliš veľké alebo príliš malé."
+
+#: app/class-abstract-summary-page.php:243
+msgid "You're almost through your CDN bandwidth limit. Please contact your administrator to upgrade your Smush CDN plan to ensure you don't lose this service"
+msgstr "Už ste takmer na limite vašeho CDN. Obráťte sa na svojho administrátora a aktualizujte svoj Smush CDN, aby ste mohli túto službu neprišli."
+
+#: app/class-abstract-summary-page.php:238
+msgid "You've gone through your CDN bandwidth limit, so we’ve stopped serving your images via the CDN. Contact your administrator to upgrade your Smush CDN plan to reactivate this service"
+msgstr "Prekročili ste svoj CDN limit, takže sme zastavili zobrazovanie vašich obrázkov prostredníctvom CDN. Požiadajte svojho administrátora o aktualizáciu Smush CDN na reaktiváciu tejto služby."
+
+#: core/api/class-request.php:300
+msgid "[WPMUDEV API] Skipped sync due to API error exponential backoff."
+msgstr "[WPMUDEV API] Preskočiť synchronizáciu z dôvodu výpadku API."
+
+#: app/views/settings/data-meta-box.php:75
+msgid "Update API status"
+msgstr "Aktualizovať API status"
+
+#: app/views/bulk/meta-box.php:23 app/views/nextgen/meta-box.php:22
+msgid "Bulk smush detects images that can be optimized and allows you to compress them in bulk."
+msgstr "Smush objavil obrázky, ktoré môžete hromadne optimalizovať."
+
+#: app/common/progress-bar.php:59 app/modals/progress-dialog.php:70
+msgid "Resume"
+msgstr "pokračovať"
+
+#. translators: %s1$d - bulk smush limit, %2$s - upgrade link, %3$s - </a>,
+#. %4$s - <strong>, $5$s - </strong>
+#: app/modals/progress-dialog.php:58
+msgid "The free version of Smush allows you to compress %1$d images at a time. You can easily click %4$sResume%5$s to optimize another %1$d images, or %2$sUpgrade to Pro%3$s to compress unlimited images at once."
+msgstr "Bezplatná verzia Smush vám umožňuje naraz komprimovať %1$d obrázkov. Môžete kliknúť na %4$s Pokračovať %5$s a optimalizovať ďalších %1$d obrázkov, alebo %2$s Aktualizovať na PRO %3$s a skomprimovať neobmedzené množstvo obrázkov naraz."
+
+#: app/modals/onboarding.php:60
+msgid "You can also have Smush compress your original images - this is helpful if your theme serves full size images."
+msgstr "Môžete tiež nechať komprimovať originálne obrázky pomocou Smush - je to užitočné, ak vaša téma zobrazuje obrázky v plnej veľkosti."
+
+#. translators: %1$s - starting a tag, %2$s - closing a tag
+#: app/pages/class-cdn.php:105
+msgid "You've gone through your CDN bandwidth limit, so we’ve stopped serving your images via the CDN. Contact your administrator to upgrade your Smush CDN plan to reactivate this service. %1$sUpgrade now%2$s"
+msgstr "Prekročili ste svoj CDN limit, takže sme zastavili zobrazovanie vašich obrázkov prostredníctvom CDN. Požiadajte svojho administrátora o aktualizáciu Smush CDN na reaktiváciu tejto služby. %1$s Aktualizovať %2$s"
+
+#: app/pages/class-bulk.php:301 app/views/settings/permissions-meta-box.php:37
+#: core/class-configs.php:719
+msgid "All"
+msgstr "Všetky"
+
+#: app/pages/class-bulk.php:269
+msgid "Note: We will only automatically compress the image sizes selected above."
+msgstr "Poznámka: Automaticky sa komprimujú iba vybrané veľkosti obrázkov."
+
+#. translators: %1$s - starting a tag, %2$s - closing a tag
+#: app/pages/class-cdn.php:96
+msgid "You're almost through your CDN bandwidth limit. Please contact your administrator to upgrade your Smush CDN plan to ensure you don't lose this service. %1$sUpgrade now%2$s"
+msgstr "Už ste takmer dosiahli CDN limit. Obráťte sa na svojho administrátora a aktualizujte Smush CDN, aby ste túto službu nestratili. %1$s Aktualizovať %2$s"
+
+#: app/pages/class-bulk.php:305 app/views/settings/permissions-meta-box.php:41
+msgid "Custom"
+msgstr "Vlastné"
+
+#: app/pages/class-bulk.php:311
+msgid "Included image sizes"
+msgstr "Zahrnuté veľkosti obrázka"
+
+#: app/class-abstract-summary-page.php:251 app/pages/class-cdn.php:85
+msgid "Your media is currently being served from the WPMU DEV CDN. Bulk and Directory smush features are treated separately and will continue to run independently."
+msgstr "Vaše médiá sa práve zobrazujú z WPMU DEV CDN. Funkcie hromadnej úpravy a Smush adresár naďalej fungujú."
+
+#: app/pages/class-dashboard.php:104 app/views/dashboard/cdn/meta-box.php:67
+msgid "Tools"
+msgstr "Nástroje"
+
+#: app/class-admin.php:286 app/modals/onboarding.php:44
+#: app/modals/onboarding.php:147 app/pages/class-dashboard.php:140
+#: app/pages/class-lazy.php:30 app/pages/class-lazy.php:45
+#: app/views/dashboard/summary-meta-box.php:143
+#: app/views/settings/permissions-meta-box.php:80 core/class-configs.php:607
+#: _src/react/modules/configs.jsx:147
+#: app/assets/js/smush-react-configs.min.js:6373
+msgid "Lazy Load"
+msgstr "Lazy Load"
+
+#: app/class-abstract-page.php:241
+msgid "Log In"
+msgstr "Prihlásiť sa"
+
+#: app/pages/class-settings.php:143
+msgid "Note: The highlighting will only be visible to administrators – visitors won’t see the highlighting."
+msgstr "Poznámka: Zvýraznenie bude viditeľné iba pre administrátorov - návštevníci ho neuvidia."
+
+#: app/class-abstract-page.php:236
+msgid "Smush Pro requires the WPMU DEV Dashboard plugin to unlock pro features. Please make sure you have installed, activated and logged into the Dashboard."
+msgstr "Smush Pro vyžaduje na odomknutie PRO funkcií plugin WPMU DEV Dashboard. Uistite sa, že ste ho nainštalovali, aktivovali a prihlásili ho na nástenke."
+
+#: core/class-core.php:319
+msgid "Ignore this image from bulk smushing"
+msgstr "Ignorovať tento obrázok v hromadnej úprave"
+
+#: app/views/settings/data-meta-box.php:25
+msgid "Data"
+msgstr "Údaje"
+
+#: app/views/settings/data-meta-box.php:32
+msgid "Uninstallation"
+msgstr "Odinštalovať"
+
+#: app/class-media-library.php:687
+msgid "Show in bulk Smush"
+msgstr "Zobraziť hromadnú úpravu"
+
+#: app/modals/reset-settings.php:41
+msgid "Reset settings"
+msgstr "Reset nastavení"
+
+#: app/modals/reset-settings.php:31
+msgid "Are you sure you want to reset Smush’s settings back to the factory defaults?"
+msgstr "Naozaj chcete zresetovať Smush nastavenia späť na predvolené hodnoty?"
+
+#: app/views/settings/data-meta-box.php:27
+msgid "Choose how you want us to handle your plugin data."
+msgstr "Vyberte, ako chcete, aby sme spracovali vaše plugin údaje."
+
+#: core/modules/class-resize-detection.php:132
+msgid "Undersized"
+msgstr "Mimo rozsah"
+
+#: core/modules/class-smush.php:831
+msgid "No attachment ID was received."
+msgstr "Príloha nemá žiadne ID."
+
+#: app/views/lazyload/meta-box.php:585
+msgid "Footer"
+msgstr "Pätička"
+
+#: app/views/lazyload/meta-box.php:576
+msgid "Method"
+msgstr "Spôsob"
+
+#: app/views/lazyload/meta-box.php:568
+msgid "Scripts"
+msgstr "Skripty"
+
+#: app/views/lazyload/meta-box.php:699
+msgid "No longer wish to use this feature? Turn it off instantly by hitting Deactivate."
+msgstr "Už nechcete túto funkciu používať? Vypnete ju stlačením Deaktivovať."
+
+#: app/views/lazyload/meta-box.php:590
+msgid "Header"
+msgstr "Hlavička"
+
+#: app/views/lazyload/meta-box.php:607
+msgid "Your theme must be using the wp_head() function."
+msgstr "Vaša téma musí používať funkciu wp_head () ."
+
+#: app/views/lazyload/meta-box.php:599
+msgid "Your theme must be using the wp_footer() function."
+msgstr "Vaša téma musí používať funkciu wp_footer() ."
+
+#: app/views/lazyload/meta-box.php:571 app/views/lazyload/meta-box.php:578
+msgid "By default we will load the required scripts in your footer for max performance benefits. If you are having issues, you can switch this to the header."
+msgstr "V predvolenom nastavení uložíme požadované skripty do päty, aby ste dosiahli maximálny výkon. Ak to pre vás predstavuje problémy, môžete ich prepnúť na hlavičku."
+
+#. translators: %1$s - opening strong tag, %2$s - closing strong tag
+#: app/views/lazyload/meta-box.php:555
+msgid "Add one class or ID per line, including the prefix. E.g %1$s#image-id%2$s or %1$s.image-class%2$s."
+msgstr "Na jeden riadok pridajte jednu triedu alebo ID vrátane predpony. Napr. %1$s# image-id%2$s alebo %1$s.image-class%2$s."
+
+#: app/views/lazyload/meta-box.php:550
+msgid "Add classes or IDs, one per line"
+msgstr "Pridať jeden riadok pre triedy, alebo ID"
+
+#: app/views/lazyload/meta-box.php:542
+msgid "Additionally, you can specify classes or IDs to avoid lazy loading. This gives you absolute control over each image on a page, not just the page itself."
+msgstr "Ďalej môžete zadať triedy alebo ID, aby ste postupnému načítavaniu (lazy loading). Takto získate absolútnu kontrolu nad každým obrázkom na stránke, nielen nad samotnou stránkou."
+
+#: app/views/lazyload/meta-box.php:540
+msgid "Classes & IDs"
+msgstr "Triedy a ID"
+
+#. translators: %1$s - opening strong tag, %2$s - closing strong tag
+#: app/views/lazyload/meta-box.php:531
+msgid "Add page or post URLs one per line in relative format. I.e. %1$s/example-page%2$s or %1$s/example-page/sub-page/%2$s."
+msgstr "V relatívnom formáte pridajte na každý riadok jednu stránku alebo URL adresu. Napr. %1$s/example-page%2$s or %1$s/example-page/sub-page/%2$s."
+
+#: app/views/lazyload/meta-box.php:526
+msgid "E.g. /page"
+msgstr "Napr. / stránka"
+
+#: app/views/lazyload/meta-box.php:518
+msgid "Add URLs to the posts and/or pages you want to disable lazy loading on."
+msgstr "Pridajte URL adresy článkov a / alebo stránok, na ktorých chcete zakázať neskoršie načítanie(Lazy loading)."
+
+#: app/views/lazyload/meta-box.php:516
+msgid "Post, Pages & URLs"
+msgstr "Článok, Stránky a URL adresy"
+
+#: app/views/lazyload/meta-box.php:487
+msgid "Tags"
+msgstr "Značky"
+
+#: app/views/lazyload/meta-box.php:476
+msgid "Categories"
+msgstr "Kategórie"
+
+#: app/views/lazyload/meta-box.php:465
+msgid "Archives"
+msgstr "Archívy"
+
+#: app/views/lazyload/meta-box.php:399
+msgid "Include/Exclude"
+msgstr "Zahrnúť / Vylúčiť"
+
+#: app/views/lazyload/meta-box.php:190
+msgid "Delay"
+msgstr "Oneskorenie"
+
+#: app/views/lazyload/meta-box.php:187 app/views/lazyload/meta-box.php:193
+msgid "ms"
+msgstr "ms"
+
+#: app/views/lazyload/meta-box.php:184
+msgid "Duration"
+msgstr "Trvanie"
+
+#: app/views/lazyload/meta-box.php:173
+#: app/views/settings/permissions-meta-box.php:33 core/class-configs.php:719
+msgid "None"
+msgstr "Žiadny"
+
+#: app/views/lazyload/meta-box.php:178
+msgid "Animation"
+msgstr "Animácia"
+
+#: app/views/lazyload/meta-box.php:131
+msgid "Post Thumbnail"
+msgstr "Miniatúra článku"
+
+#: app/views/lazyload/meta-box.php:125
+msgid "Widgets"
+msgstr "Widgety"
+
+#: app/views/lazyload/meta-box.php:119
+msgid "Content"
+msgstr "Obsah"
+
+#: app/views/lazyload/meta-box.php:94
+msgid ".svg"
+msgstr ".svg"
+
+#: app/views/lazyload/meta-box.php:454
+msgid "Posts"
+msgstr "Články"
+
+#: app/views/lazyload/meta-box.php:443
+msgid "Pages"
+msgstr "Stránky"
+
+#: app/views/lazyload/meta-box.php:432
+msgid "Blog"
+msgstr "Blog"
+
+#: app/views/lazyload/meta-box.php:421
+msgid "Frontpage"
+msgstr "Titulná strana"
+
+#: app/views/lazyload/meta-box.php:415
+msgid "Type"
+msgstr "Typ"
+
+#: app/views/lazyload/meta-box.php:414
+msgid "Name"
+msgstr "Názov"
+
+#: app/views/lazyload/meta-box.php:409
+msgid "Choose the post types you want to lazy load."
+msgstr "Vyberte typ obsahu, ktorý chcete načítať oneskorene."
+
+#: app/views/lazyload/meta-box.php:407
+msgid "Post Types"
+msgstr "Typy obsahov"
+
+#: app/views/lazyload/meta-box.php:402
+msgid "Disable lazy loading for specific pages, posts or image classes that you wish to prevent lazyloading on."
+msgstr "Zakázať oneskorené načítanie (lazy loading) pre konkrétne stránky, články alebo skupiny obrázkov."
+
+#: app/views/lazyload/meta-box.php:88
+msgid ".gif"
+msgstr ".gif"
+
+#: app/views/lazyload/meta-box.php:137
+msgid "Gravatars"
+msgstr "Gravatary"
+
+#: app/views/lazyload/meta-box.php:76
+msgid ".png"
+msgstr ".png"
+
+#: app/views/lazyload/meta-box.php:70
+msgid ".jpeg"
+msgstr ".jpeg"
+
+#: app/views/lazyload/meta-box.php:62
+msgid "Choose which media types you want to lazy load."
+msgstr "Vyberte typy médií, ktoré chcete zobrazovať postupne (lazy load)."
+
+#: app/views/lazyload/meta-box.php:59 core/class-configs.php:659
+msgid "Media Types"
+msgstr "Typy médií"
+
+#: app/views/dashboard/lazy-load-meta-box.php:32
+#: app/views/lazyload/meta-box.php:34
+msgid "Lazy loading is active."
+msgstr "Postupné zobrazenie je aktívne."
+
+#: app/views/lazyload/meta-box.php:165 app/views/lazyload/meta-box.php:202
+msgid "Spinner"
+msgstr "Spinner"
+
+#: app/views/lazyload/meta-box.php:161
+msgid "Fade In"
+msgstr "Postupne zobraziť"
+
+#: app/views/lazyload/meta-box.php:111
+msgid "By default we will lazy load all images, but you can refine this to specific media outputs too."
+msgstr "V predvolenom nastavení bude postupné zobrazenie (lazy load) pre všetky obrázky, ale môžete to upraviť aj na konkrétne výstupy."
+
+#: app/views/lazyload/meta-box.php:108 core/class-configs.php:660
+msgid "Output Locations"
+msgstr "Miesta výstupu"
+
+#: app/modals/webp-delete-all.php:56 app/views/settings/data-meta-box.php:46
+#: _src/react/modules/configs.jsx:61 _src/react/modules/configs.jsx:119
+#: app/assets/js/smush-react-configs.min.js:6287
+#: app/assets/js/smush-react-configs.min.js:6345
+msgid "Delete"
+msgstr "Zmazať"
+
+#: app/views/settings/data-meta-box.php:34
+msgid "When you uninstall the plugin, what do you want to do with your settings? You can save them for next time, or wipe them back to factory settings."
+msgstr "Keď odinštalujete plugin, čo chcete spraviť s jeho nastavením? Môžete si ho uložiť na neskôr alebo ho resetovať na továrenské nastavenie."
+
+#: app/views/settings/data-meta-box.php:41
+msgid "Keep"
+msgstr "Zachovať"
+
+#: app/modals/reset-settings.php:27 app/views/settings/data-meta-box.php:58
+msgid "Reset Settings"
+msgstr "Reset nastavení"
+
+#: app/views/settings/data-meta-box.php:51
+msgid "Reset Factory Settings"
+msgstr "Reset na továrenské nastavenia"
+
+#: app/views/settings/data-meta-box.php:53
+msgid "Need to revert back to the default settings? This button will instantly reset your settings to the defaults."
+msgstr "Potrebujete sa vrátiť späť na predvolené nastavenia? Toto tlačidlo okamžite resetuje vaše nastavenia na predvolené hodnoty."
+
+#: app/pages/class-settings.php:152
+msgid "Note: Images served via the Smush CDN are automatically resized to fit their containers, these will be skipped."
+msgstr "Poznámka: Obrázky zobrazené prostredníctvom Smush CDN sa automaticky upravia tak, aby sa zmestili na ich kontajnery, tieto budú preskočené."
+
+#: core/class-settings.php:279
+msgid "Usage Tracking"
+msgstr "Sledovanie použitia"
+
+#: core/class-settings.php:273
+msgid "Enable high contrast mode"
+msgstr "Povoliť režim vysokého kontrastu"
+
+#: core/class-cli.php:300
+msgid "There were issues restoring some images"
+msgstr "Pri obnovovaní niektorých obrázkov sa vyskytli problémy"
+
+#: core/class-cli.php:277
+msgid "Restoring images"
+msgstr "Obnovujem obrázky"
+
+#: core/class-cli.php:270
+msgid "Image with defined ID not found"
+msgstr "Obrázok so zadaným ID sa nenašiel"
+
+#: core/class-cli.php:264
+msgid "No images available to restore"
+msgstr "K dispozícii nie sú žiadne obrázky na obnovenie"
+
+#. translators: %d - image ID
+#: core/class-cli.php:66
+msgid "Smushing image ID: %d"
+msgstr "Zmenšovanie obrázka ID: %d"
+
+#: app/views/dashboard/summary-meta-box.php:83
+#: app/views/dashboard/summary-meta-box.php:119
+msgid "Upgrade"
+msgstr "Vylepšiť"
+
+#: app/class-admin.php:211 app/views/smush-upgrade-page.php:23
+msgid "Upgrade to Smush Pro"
+msgstr "Vylepšiť na Smush Pro"
+
+#: core/class-settings.php:274
+msgid "Color Accessibility"
+msgstr "Dostupnosť farieb"
+
+#: core/class-cli.php:302
+msgid "All images restored"
+msgstr "Všetky obrázky boli obnovené"
+
+#: app/modals/checking-files.php:33
+msgid "Great! We’re just running a check to see what images need compressing. You can configure more advanced settings once this image check is complete."
+msgstr "Skvelé! Práve kontrolujeme, ktoré obrázky je potrebné komprimovať. Po dokončení kontroly môžete nakonfigurovať rozšírené nastavenia."
+
+#: core/class-settings.php:280
+msgid "Help make Smush better by letting our designers learn how you’re using the plugin."
+msgstr "Pomôžte vylepšiť Smush tým, že sa našim dizajnérom umožní dozvedieť sa, ako plugin používate."
+
+#: core/class-settings.php:275
+msgid "Increase the visibility and accessibility of elements and components to meet WCAG AAA requirements."
+msgstr "Zvýšte viditeľnosť a prístupnosť prvkov a komponentov tak, aby vyhovovali požiadavkám WCAG AAA."
+
+#. translators: %d - attachment ID
+#: core/class-cli.php:196
+msgid "Image (ID: %d) already compressed"
+msgstr "Obrázok (ID: %d) je  už upravený"
+
+#: core/class-cli.php:131
+msgid "Unsmushed images:"
+msgstr "Neupravené obrázky:"
+
+#: core/class-cli.php:127
+msgid "No uncompressed images found"
+msgstr "Nenašli sa žiadne neupravené obrázky"
+
+#: core/class-cli.php:77
+msgid "Smushing all images"
+msgstr "Upraviť všetky obrázky"
+
+#. translators: %d - number of images
+#: core/class-cli.php:72
+msgid "Smushing first %d images"
+msgstr "Úprava prvých %d obrázkov"
+
+#: core/class-cli.php:248
+msgid "All images compressed"
+msgstr "Všetky obrázky sú komprimované"
+
+#: core/class-cli.php:221
+msgid "Image compressed"
+msgstr "Obrázok je skomprimovaný"
+
+#: app/modals/checking-files.php:28
+msgid "Checking images"
+msgstr "Kontrolujem obrázky"
+
+#: app/modals/onboarding.php:172
+msgid "Skip this, I’ll set it up later"
+msgstr "Preskočiť, nastavím to neskôr"
+
+#: app/modals/onboarding.php:113 _src/react/views/webp/step-footer.jsx:117
+#: app/assets/js/smush-react-webp.min.js:1211
+msgid "Next"
+msgstr "Ďalej"
+
+#: app/modals/onboarding.php:107
+msgid "Finish setup wizard"
+msgstr "Dokončiť sprievodcu nastavením"
+
+#: app/modals/onboarding.php:93
+msgid "Allow usage data tracking"
+msgstr "Povoliť sledovanie údajov o používaní"
+
+#: app/modals/onboarding.php:89
+msgid "Compress my full size images"
+msgstr "Komprimovať moje obrázky v plnej veľkosti"
+
+#: app/modals/onboarding.php:83
+msgid "Automatically optimize new uploads"
+msgstr "Automaticky optimalizovať nové obrázky, hneď po ich uložení"
+
+#: app/modals/onboarding.php:73
+msgid "Begin setup"
+msgstr "Začať s nastavovaním"
+
+#: app/modals/onboarding.php:102
+msgid "Note: By default we will store a copy of your original uploads just in case you want to revert in the future - you can turn this off at any time."
+msgstr "Poznámka: V predvolenom nastavení uložíme kópiu vašich pôvodných nahraných súborov iba pre prípad, že sa k nim budete chcieť v budúcnosti vrátiť. Môžete to kedykoľvek vypnúť."
+
+#: app/modals/onboarding.php:85
+msgid "Enable enhanced multi-pass lossy compression"
+msgstr "Povoliť vylepšenú multi-pass kompresiu"
+
+#: app/modals/onboarding.php:64
+msgid "Help us improve Smush by letting our product designers gain insight into what features need improvement. We don’t track any personalized data, it’s all basic stuff."
+msgstr "Pomôžte nám vylepšiť Smush tým, že naši dizajnéri získajú prehľad o tom, ktoré funkcie je potrebné vylepšiť. Nesledujeme žiadne osobné údaje."
+
+#: app/modals/onboarding.php:54
+msgid "When you upload images to your site, Smush can automatically optimize and compress them for you saving you having to do this manually."
+msgstr "Po uložení obrázka na svojej webovej stránke, ho Smush môže automaticky optimalizovať a skomprimovať, aby ste ušetrili čas a nemuseli to robiť ručne."
+
+#: app/modals/onboarding.php:52
+msgid "Nice work installing Smush! Let’s get started by choosing how you want this plugin to work, and then let Smush do all the heavy lifting for you."
+msgstr "Super práca pri inštalácií! Začneme výberom toho, ako chcete, aby tento doplnok fungoval, a potom nechajte Smush urobiť všetko pre vás."
+
+#: app/modals/onboarding.php:38 app/modals/onboarding.php:136
+msgid "Advanced Compression"
+msgstr "Pokročilá kompresia"
+
+#. translators: %s: current user name
+#: app/modals/onboarding.php:33
+msgid "Hey, %s!"
+msgstr "Čau %s!"
+
+#: app/modals/onboarding.php:46 app/modals/onboarding.php:151
+msgid "Usage Data"
+msgstr "Údaje o použití"
+
+#: app/modals/onboarding.php:40 app/modals/onboarding.php:139
+msgid "EXIF Metadata"
+msgstr "EXIF Metadáta"
+
+#: app/modals/onboarding.php:36 app/modals/onboarding.php:133
+msgid "Automatic Compression"
+msgstr "Automatická kompresia"
+
+#: app/modals/onboarding.php:23
+msgid "Smush Onboarding Modal"
+msgstr "Smush Onboarding Modal"
+
+#: app/pages/class-settings.php:122
+msgid "Note: Usage tracking is completely anonymous. We are only tracking what features you are/aren’t using to make our feature decisions more informed."
+msgstr "Poznámka: Sledovanie použitia je úplne anonymné. Sledujeme iba to, aké funkcie používate alebo nepoužívate, aby sme o daných funkciách získali viac informácií."
+
+#: app/class-media-library.php:314
+msgid "Select an image to view Smush stats."
+msgstr "Vyberte obrázok pre zobrazenie štatistík."
+
+#. Translators: %1$s: opening strong tag, %2$s: closing strong tag, %s:
+#. settings link, %3$s: opening a and strong tags, %4$s: closing a and strong
+#. tags
+#: core/integrations/class-s3.php:324
+msgid "We can see you have WP Offload Media installed with the %1$sRemove Files From Server%2$s option activated. If you want to optimize your S3 images you'll need to %3$supgrade to Smush Pro%4$s"
+msgstr "Vidíme, že máte nainštalované WP Offload Media so zapnutou funkciou %1$sOdstrániť súbory zo servera%2$s. Ak chcete optimalizovať svoje S3 obrázky, budete musieť %3$sPrejsť na Smush Pro%4$s"
+
+#: app/class-ajax.php:1007 app/class-ajax.php:1164
+msgid "User can not modify options"
+msgstr "Používateľ nemôže meniť nastavenia"
+
+#: core/modules/class-cdn.php:241
+msgid "Automatic Resizing"
+msgstr "Automatické zmenšenie"
+
+#: core/modules/class-cdn.php:240
+msgid "Enable automatic resizing of my images"
+msgstr "Povoliť automatické zmenšenie mojich obrázkov"
+
+#: app/views/dashboard/cdn/meta-box.php:76 core/modules/class-cdn.php:246
+msgid "WebP Conversion"
+msgstr "WebP konverzia"
+
+#: core/modules/class-cdn.php:245
+msgid "Enable WebP conversion"
+msgstr "Povoliť WebP konverziu"
+
+#: core/modules/class-cdn.php:242
+msgid "If your images don’t match their containers, we’ll automatically serve a correctly sized image."
+msgstr "Ak sa vaše obrázky nevojdú do ich kontajnerov, automaticky sa zobrazí obrázok v správnej veľkosti."
+
+#: app/common/footer-links.php:50 app/common/footer-links.php:75
+#: app/views/smush-upgrade-page.php:189
+msgid "Privacy Policy"
+msgstr "Ochrana osobných údajov"
+
+#: app/common/footer-links.php:47 app/common/footer-links.php:72
+#: app/views/smush-upgrade-page.php:186
+msgid "Terms of Service"
+msgstr "Zmluvné podmienky"
+
+#: app/class-admin.php:250 app/common/footer-links.php:38
+#: app/common/footer-links.php:63 app/views/smush-upgrade-page.php:177
+msgid "Support"
+msgstr "Podpora"
+
+#: app/class-admin.php:262 app/common/footer-links.php:35
+#: app/common/footer-links.php:60 app/views/smush-upgrade-page.php:174
+msgid "Roadmap"
+msgstr "Plán"
+
+#: app/common/footer-links.php:57
+msgid "Plugins"
+msgstr "Pluginy"
+
+#: app/common/footer-links.php:32 app/views/smush-upgrade-page.php:171
+msgid "Free Plugins"
+msgstr "Pluginy zadarmo"
+
+#: app/common/footer-links.php:69
+msgid "Community"
+msgstr "Komunita"
+
+#: app/class-admin.php:218 app/common/footer-links.php:41
+#: app/common/footer-links.php:66 app/views/smush-upgrade-page.php:180
+msgid "Docs"
+msgstr "Dokumentácia"
+
+#: app/common/footer-links.php:44 app/common/footer-links.php:54
+#: app/views/smush-upgrade-page.php:183
+msgid "The Hub"
+msgstr "Stredisko"
+
+#: core/api/class-request.php:82
+msgid "Invalid API service."
+msgstr "Chyba služby API."
+
+#. translators: %d: number of images with errors
+#: app/views/dashboard/directory-meta-box.php:56
+#: app/views/directory/meta-box.php:70
+msgid "Showing 20 of %d failed optimizations. Fix or remove these images and run another Directory Smush."
+msgstr "Zobraziť  20 z %d neúspešných optimalizácií. Opravte alebo odstráňte tieto obrázky a spustite ďalší adresár Smush."
+
+#: app/views/settings/general-meta-box.php:44
+msgid "Active Translation"
+msgstr "Aktívny preklad"
+
+#. translators: %1$s: opening a tag, %2$s: closing a tag
+#: app/views/settings/general-meta-box.php:34
+msgid "By default, Smush will use the language you’d set in your %1$sWordPress Admin Settings%2$s if a matching translation is available."
+msgstr "V predvolenom nastavení použije program Smush jazyk, ktorý ste nastavili v %1$s nastaveniach WordPress %2$s, ak je k dispozícii zodpovedajúci preklad."
+
+#: app/views/settings/general-meta-box.php:30
+msgid "Translations"
+msgstr "Preklady"
+
+#: app/views/bulk-settings/meta-box.php:27
+msgid "Your images are currently being served via the WPMU DEV CDN. Bulk smush will continue to operate as per your settings below and is treated completely separately in case you ever want to disable the CDN."
+msgstr "Vaše obrázky sa momentálne zobrazujú prostredníctvom WPMU DEV CDN. Smush hromadná úprava bude naďalej fungovať podľa vašich nastavení a bude pracovať samostatne v prípade, že by ste niekedy deaktivovali CDN."
+
+#: app/views/cdn/meta-box.php:115
+msgid "Note: You won’t lose any images by deactivating, all of your attachments are still stored locally on your own server."
+msgstr "Poznámka: Deaktiváciou nestratíte žiadne obrázky. Všetky sa stále ukladajú lokálne na vašom vlastnom serveri."
+
+#: app/views/cdn/meta-box.php:94 app/views/cdn/meta-box.php:109
+#: app/views/lazyload/meta-box.php:695 app/views/lazyload/meta-box.php:710
+#: app/views/webp/webp-meta-box.php:182 app/views/webp/webp-meta-box.php:194
+msgid "Deactivate"
+msgstr "Deaktivovať"
+
+#: app/views/cdn/meta-box.php:98
+msgid "If you no longer require your images to be hosted from our CDN, you can disable this feature."
+msgstr "Ak už nepotrebujete, aby boli vaše obrázky zobrazované z CDN, môžete túto funkciu vypnúť."
+
+#: app/views/cdn/meta-box.php:72
+msgid "At this time, we don’t support videos. We recommend uploading your media to a third-party provider and embedding the videos into your posts/pages."
+msgstr "Momentálne videá nepodporujeme. Odporúčame nahrať vaše médiá poskytovateľovi tretích strán a z nich vložiť videá do vašich článkov / stránok."
+
+#: app/views/cdn/meta-box.php:66
+msgid "webp"
+msgstr "webp"
+
+#: app/views/cdn/meta-box.php:62
+msgid "gif"
+msgstr "gif"
+
+#: app/views/cdn/meta-box.php:59 app/views/webp/webp-meta-box.php:131
+msgid "png"
+msgstr "png"
+
+#: app/views/cdn/meta-box.php:56 app/views/webp/webp-meta-box.php:128
+msgid "jpg"
+msgstr "jpg"
+
+#: app/views/cdn/meta-box.php:50
+msgid "Here’s a list of the media types we serve from the CDN."
+msgstr "Tu je zoznam typov médií, ktoré zobrazujeme z CDN."
+
+#: app/views/cdn/meta-box.php:35
+msgid "Upgrade Plan"
+msgstr "Plán vylepšení"
+
+#: app/common/meta-box-footer.php:28
+msgid "Activating CDN..."
+msgstr "Aktivujem CDN..."
+
+#: app/common/meta-box-footer.php:27
+msgid "Save & Activate"
+msgstr "Uložiť a aktivovať"
+
+#: app/views/cdn/meta-box.php:46 app/views/webp/webp-meta-box.php:120
+msgid "Supported Media Types"
+msgstr "Podporované typy médií"
+
+#: app/class-abstract-page.php:232 app/views/cdn/disabled-meta-box.php:19
+#: app/views/cdn/upsell-meta-box.php:20
+#: app/views/lazyload/disabled-meta-box.php:18
+msgid "Smush CDN"
+msgstr "Smush CDN"
+
+#: app/views/dashboard/cdn/meta-box-header.php:21
+#: app/views/dashboard/summary-meta-box.php:86
+#: app/views/dashboard/summary-meta-box.php:122
+#: app/views/dashboard/upsell/meta-box-header.php:19
+#: app/views/dashboard/webp/meta-box-header.php:21
+#: app/views/webp/meta-box-header.php:24
+#: core/integrations/class-nextgen.php:700 core/integrations/class-s3.php:423
+#: _src/react/views/webp/steps-bar.jsx:52
+#: app/assets/js/smush-react-webp.min.js:503
+msgid "Pro"
+msgstr "Pro"
+
+#: app/pages/class-cdn.php:90
+msgid ""
+"Your settings have been saved and changes are now propagating to the CDN. Changes can take up to 30\n"
+"\t\t\t\tminutes to take effect but your images will continue to be served in the mean time, please be patient."
+msgstr ""
+"Vaše nastavenia boli uložené a zmeny sa prenášajú sa na CND. Zmeny sa môžu prejaviť o až 30\n"
+"\t\t\t\tminúť, ale vaše obrázky sa budú naďalej zobrazovať. Prosím budte trpezlivý."
+
+#: app/pages/class-cdn.php:89
+msgid "CDN is not yet active. Configure your settings below and click Activate."
+msgstr "CDN ešte nie je aktivované. Upravte svoje nastavenia a kliknite na Aktivovať."
+
+#: app/pages/class-bulk.php:230
+msgid "Save a ton of space by not storing over-sized images on your server. Set a maximum height and width for all images uploaded to your site so that any unnecessarily large images are automatically resized before they are added to the media gallery. This setting does not apply to images smushed using Directory Smush feature."
+msgstr "Ušetrite tony miesta tým, že na server neuložíte obrázky nadmernej veľkosti. Nastavte maximálnu výšku a šírku pre všetky obrázky ukladané na vašu webovú stránku, aby sa pred pridaním do galérie médií automaticky zmenila veľkosť zbytočne veľkých obrázkov. Toto nastavenie sa nevzťahuje na obrázky upravované pomocou funkcie Directory Smush."
+
+#: app/class-abstract-page.php:702
+msgid "Your settings have been saved and changes are now propagating to the CDN. Changes can take up to 30 minutes to take effect but your images will continue to be served in the mean time, please be patient."
+msgstr "Vaše nastavenia boli uložené a zmeny prenášajú do CDN. Zmeny sa môžu prejaviť až o 30 minút, ale vaše obrázky sa budú naďalej zobrazovať. Dovtedy buďte trpezliví."
+
+#: app/pages/class-settings.php:188
+msgid "Almost there! To finish activating this feature you must save your settings."
+msgstr "Skoro hotovo! Na dokončenie aktivácie tejto funkcie musíte svoje nastavenia uložiť."
+
+#. translators: %1$s: opening a tag, %2$s: closing a tag
+#: app/pages/class-settings.php:170
+msgid "Incorrect image size highlighting is active. %1$sView the frontend%2$s of your website to see if any images aren't the correct size for their containers."
+msgstr "Je aktívne zvýraznenie nesprávnej veľkosti obrázka. %1$s Pozrite si frontend %2$s webovej stránky a zistite, či majú obrázky správnu veľkosť pre svoje kontajnery."
+
+#: app/views/nextgen/meta-box.php:59
+msgid "View all"
+msgstr "Zobraziť všetko"
+
+#: app/common/progress-bar.php:45
+msgid "Resume scan."
+msgstr "Obnoviť skenovanie."
+
+#: core/modules/class-resize-detection.php:129
+msgid "Oversized"
+msgstr "Nadmerná veľkosť"
+
+#: app/class-media-library.php:241 app/class-media-library.php:311
+msgid "Smush: Bulk ignored"
+msgstr "Smush: Hromadne ignorované"
+
+#: app/class-media-library.php:239 app/class-media-library.php:309
+msgid "Smush: All images"
+msgstr "Smush: Všetky obrázky"
+
+#: core/modules/class-resize-detection.php:123
+msgid "Image Issues"
+msgstr "Problémy s obrázkami"
+
+#: core/modules/class-resize-detection.php:125
+msgid "The images listed below are being resized to fit a container. To avoid serving oversized or blurry images, try to match the images to their container sizes."
+msgstr "Veľkosť obrázkov uvedených nižšie sú upravené pre kontajnery. Ak sa chcete vyhnúť zobrazovaniu nadmerných alebo rozmazaných obrázkov, skúste upraviť obrázky tak, aby ich rozmery zodpovedali rozmerom kontajnera."
+
+#: core/modules/class-smush.php:892
+msgid "Skipped with wp_smush_image filter"
+msgstr "Preskočiť s wp_smush_image filtrom"
+
+#: core/class-settings.php:260
+msgid "Choose how you want Smush to handle the original image file when you run a bulk smush."
+msgstr "Vyberte, ako chcete, aby Smush upravil pôvodný obrázok, keď spustíte hromadný úpravu."
+
+#: core/class-settings.php:259
+msgid "Original Images"
+msgstr "Pôvodné obrázky"
+
+#: core/class-core.php:283 core/integrations/nextgen/class-admin.php:200
+msgid "{{smushed}}/{{total}} images were successfully compressed, {{errors}} encountered issues."
+msgstr "{{smushed}}/{{total}} obrázky, ktoré sa úspešne skomprimovali, {{errors}} problémové."
+
+#: app/modals/progress-dialog.php:96
+msgid "-/- images optimized"
+msgstr "-/- obrázkov optimalizovaných"
+
+#: app/common/progress-bar.php:43 app/modals/progress-dialog.php:89
+#: app/modals/reset-settings.php:37 app/modals/restore-images.php:52
+#: app/modals/restore-images.php:70 app/modals/restore-images.php:149
+#: app/modals/webp-delete-all.php:49 _src/react/modules/configs.jsx:37
+#: app/assets/js/smush-react-configs.min.js:6263
+msgid "Cancel"
+msgstr "Zrušiť"
+
+#: app/modals/progress-dialog.php:38
+msgid "Bulk smushing is in progress, you need to leave this tab open until the process completes."
+msgstr "Prebieha hromadná úprava. Musíte nechať toto okno otvorené, kým sa proces nedokončí."
+
+#. translators: %d - number of images
+#: app/pages/class-directory.php:114
+msgid "%d image was successfully optimized"
+msgid_plural "%d images were successfully optimized"
+msgstr[0] "%d obrázok bol úspešne optimalizovaný."
+msgstr[1] "%d obrázky boli úspešne optimalizované."
+msgstr[2] "%d obrázkov bolo úspešne optimalizovaných."
+
+#: core/integrations/class-gutenberg.php:70
+msgid "Gutenberg Support"
+msgstr "Gutenberg podpora"
+
+#: core/integrations/class-gutenberg.php:69
+msgid "Show Smush stats in Gutenberg blocks"
+msgstr "Zobraziť Smush štatistiku v Gutenbergu"
+
+#: core/integrations/class-gutenberg.php:104
+msgid "To use this feature you need to install and activate the Gutenberg plugin."
+msgstr "Ak chcete používať túto funkciu, musíte nainštalovať a aktivovať plugin Gutenberg."
+
+#: core/integrations/class-gutenberg.php:71
+msgid ""
+"Add statistics and the manual smush button to Gutenberg blocks that\n"
+"\t\t\t\t\t\t\tdisplay images."
+msgstr ""
+"Pridajte štatistiku a tlačidlo manuálnej úpravy do Gutenberga\n"
+"\t\t\t\t\t\t\tzobraziť obrázky."
+
+#: core/class-core.php:315
+msgid "images optimized"
+msgstr "obrázkov optimalizovaných"
+
+#: core/modules/class-dir.php:526 core/modules/class-dir.php:537
+#: core/modules/class-dir.php:782 core/modules/class-dir.php:899
+msgid "Unauthorized"
+msgstr "Neautorizované"
+
+#: core/class-core.php:316
+msgid "Resume scan"
+msgstr "Obnoviť skenovanie"
+
+#: app/modals/progress-dialog.php:140
+msgid "RESUME"
+msgstr "POKRAČOVAŤ"
+
+#: core/modules/class-dir.php:907
+msgid "Empty Directory Path"
+msgstr "Prázdna cesta adresára"
+
+#: core/modules/class-dir.php:710
+msgid "There was a problem getting the selected directories"
+msgstr "Vyskytol sa problém s vybranými adresármi"
+
+#: app/views/nextgen/summary-meta-box.php:72
+msgid "Disabled"
+msgstr "Vypnuté"
+
+#: app/class-media-library.php:854
+msgid "Resmush"
+msgstr "Znova upraviť"
+
+#: app/class-media-library.php:557
+msgid "View Stats"
+msgstr "Zobraziť štatistiky"
+
+#: app/class-media-library.php:880
+msgid "Restore"
+msgstr "Obnoviť"
+
+#: app/class-abstract-page.php:624
+msgid "Documentation"
+msgstr "Dokumentácia"
+
+#: app/class-abstract-page.php:613
+msgid "Re-Check Images"
+msgstr "Znovu skontrolovať obrázky"
+
+#: app/common/all-images-smushed-notice.php:20
+#: app/views/dashboard/bulk/meta-box.php:29
+msgid "All attachments have been smushed. Awesome!"
+msgstr "Všetky prílohy boli upravené. Úžasné!"
+
+#: app/views/summary/meta-box.php:79
+msgid "Image Resize Savings"
+msgstr "Zmenšenie veľkosti obrázku"
+
+#: app/views/dashboard/summary-meta-box.php:50
+#: app/views/smush-upgrade-page.php:52 app/views/summary/meta-box.php:50
+msgid "Total Savings"
+msgstr "Celková úspora"
+
+#: app/views/smush-upgrade-page.php:97
+msgid "Pro Features"
+msgstr "Pro funkcie"
+
+#: app/class-media-library.php:389
+#: app/views/dashboard/integrations-meta-box.php:49
+msgid "PRO"
+msgstr "PRO"
+
+#: app/class-admin.php:298 app/pages/class-dashboard.php:82
+#: app/pages/class-integrations.php:38
+#: app/views/settings/permissions-meta-box.php:75
+#: _src/react/modules/configs.jsx:146
+#: app/assets/js/smush-react-configs.min.js:6372
+msgid "Integrations"
+msgstr "Integrácie"
+
+#: app/class-admin.php:278 app/pages/class-bulk.php:55
+#: app/pages/class-dashboard.php:71 app/pages/class-nextgen.php:57
+#: app/pages/class-nextgen.php:139 app/views/dashboard/bulk/meta-box.php:71
+#: app/views/settings/permissions-meta-box.php:70
+#: _src/react/modules/configs.jsx:145
+#: app/assets/js/smush-react-configs.min.js:6371
+msgid "Bulk Smush"
+msgstr "Hromadná úprava"
+
+#: app/views/dashboard/summary-meta-box.php:58
+#: app/views/summary/meta-box.php:58
+msgid "Images Smushed"
+msgstr "Zmenšené obrázky"
+
+#: app/views/bulk/meta-box.php:41
+msgid "Once you upload images, reload this page and start playing!"
+msgstr "Po nahratí obrázkov, znovu načítajte túto stránku."
+
+#. translators: %1$1s - opening <a> tag, %2$2s - closing <a> tag
+#: app/views/summary/meta-box.php:93
+msgid "Save a ton of space by not storing over-sized images on your server. %1$1sEnable image resizing%2$2s"
+msgstr "Ušetrite tony miesta tým, že na server neuložíte obrázky nadmernej veľkosti. %1$1s Povoľte úpravu veľkosti obrázka %2$2s"
+
+#. translators: %1$s - a href tag, %2$s - a href closing tag
+#: app/views/integrations/meta-box.php:49
+msgid "Smush Pro supports hosting images on Amazon S3 and optimizing NextGen Gallery images directly through NextGen Gallery settings. %1$sTry it free%2$s with a WPMU DEV membership today!"
+msgstr "Smush Pro podporuje hosťovanie obrázkov na Amazon S3 a optimalizáciu obrázkov NextGen Gallery priamo prostredníctvom nastavení NextGen Gallery. %1$s Vyskúšajte to zadarmo %2$s spolu s členstvom WPMU DEV už dnes!"
+
+#: app/modals/directory-list.php:36
+msgid "Choose which folder you wish to smush. Smush will automatically include any images in subfolders of your selected folder."
+msgstr "Zvoľte, ktorý priečinok chcete vyčistiť. Funkcia Smush automaticky zahrnie všetky obrázky z podpriečinkov vybraného priečinka."
+
+#: app/modals/directory-list.php:26 app/modals/progress-dialog.php:28
+#: app/views/dashboard/directory-meta-box.php:69
+msgid "Choose Directory"
+msgstr "Vyberte adresár"
+
+#: app/modals/directory-list.php:30 app/modals/progress-dialog.php:32
+msgid "Close"
+msgstr "Zavrieť"
+
+#. translators: %s - width, %s - height.
+#: core/modules/class-resize-detection.php:101
+msgid "This image is too large for its container. Adjust the image dimensions to %1$s x %2$spx for optimal results."
+msgstr "Tento obrázok je pre jeho kontajner príliš veľký. Nastavte rozmery obrázka na %1$s x %2$spx pre optimálne výsledky."
+
+#. translators: %s - width, %s - height.
+#: core/modules/class-resize-detection.php:103
+msgid "This image is too small for its container. Adjust the image dimensions to %1$s x %2$spx for optimal results."
+msgstr "Tento obrázok je pre jeho kontajner príliš malý. Nastavte rozmery obrázka na %1$s x %2$spx pre optimálne výsledky."
+
+#: core/class-rest.php:76
+msgid "Smushing in progress"
+msgstr "Prebieha zmenšovanie"
+
+#: app/views/directory/meta-box.php:21
+msgid "Directory Smush - Choose Folder"
+msgstr "Adresár Smush - vyberte priečinok"
+
+#: app/class-admin.php:282 app/pages/class-dashboard.php:129
+#: app/pages/class-directory.php:31
+msgid "Directory Smush"
+msgstr "Adresár Smush"
+
+#: app/class-abstract-summary-page.php:234 app/class-admin.php:290
+#: app/pages/class-cdn.php:31 app/pages/class-cdn.php:40
+#: app/pages/class-cdn.php:50 app/pages/class-dashboard.php:151
+#: app/pages/class-dashboard.php:408 app/views/cdn/meta-box-header.php:17
+#: app/views/dashboard/summary-meta-box.php:78
+#: app/views/settings/permissions-meta-box.php:85 core/class-configs.php:608
+#: _src/react/modules/configs.jsx:148
+#: app/assets/js/smush-react-configs.min.js:6374
+msgid "CDN"
+msgstr "CDN"
+
+#: app/common/footer-plugins-upsell.php:70
+#: _src/react/views/webp/free-content.jsx:78
+#: app/assets/js/smush-react-webp.min.js:1086
+msgid "Learn more"
+msgstr "Dozvedieť sa viac"
+
+#: app/common/footer-plugins-upsell.php:26
+#: app/common/footer-plugins-upsell.php:38
+#: app/common/footer-plugins-upsell.php:50
+msgid "View features"
+msgstr "Zobraziť funkcie"
+
+#: app/views/smush-upgrade-page.php:166
+msgid "by WPMU DEV"
+msgstr "WPMU DEV"
+
+#: app/views/smush-upgrade-page.php:166
+msgid "Made with"
+msgstr "Vyrobené s"
+
+#: app/common/footer-plugins-upsell.php:72
+msgid "Try pro features for free!"
+msgstr "Vyskúšajte profesionálne funkcie zadarmo!"
+
+#: core/class-rest.php:52
+msgid "Smush data."
+msgstr "Smush údaje."
+
+#: app/views/lazyload/meta-box.php:219 app/views/lazyload/meta-box.php:272
+msgid "Remove"
+msgstr "Odstrániť"
+
+#: core/integrations/class-s3.php:367
+msgid "To use this feature you need to install WP Offload Media and have an Amazon S3 account setup."
+msgstr "Ak chcete používať túto funkciu, musíte nainštalovať WP Offload Media a mať nastavený účtu Amazon S3."
+
+#: app/common/footer-plugins-upsell.php:68
+msgid "Pretty much everything you need for developing and managing WordPress based websites, and then some."
+msgstr "Skoro všetko, čo potrebujete na vývoj a správu webových stránok založených na WordPress."
+
+#. translators: %1$d - number of images, %2$s - opening a tag, %3$s - closing a
+#. tag
+#: app/class-ajax.php:731
+msgid "Image check complete, you have %1$d images that need smushing. %2$sBulk smush now!%3$s"
+msgstr "Kontrola obrázkov je dokončená. Máte %d obrázkov, ktoré potrebujú upraviť. %sHromadná úprava teraz!%s"
+
+#: core/class-settings.php:253
+msgid "Detect and show incorrectly sized images"
+msgstr "Nájdite a zobrazte obrázky s nesprávnym rozmerom"
+
+#: app/modals/onboarding.php:56 core/class-settings.php:235
+msgid "Optimize images up to 2x more than regular smush with our multi-pass lossy compression."
+msgstr "Optimalizujte obrázky až 2x viac ako bežné zmenšenie s našou multi-pass lossy kompresiou."
+
+#: app/modals/onboarding.php:87 core/class-settings.php:238
+msgid "Strip my image metadata"
+msgstr "Vymazať metadáta mojich obrázkov"
+
+#: core/class-settings.php:244
+msgid "Image Resizing"
+msgstr "Zmena veľkosti obrázka"
+
+#: core/class-settings.php:239
+msgid "Metadata"
+msgstr "Metadáta"
+
+#: app/common/footer-plugins-upsell.php:23
+msgid "Hummingbird Page Speed Optimization"
+msgstr "Hummingbird Page Speed Optimization"
+
+#: app/common/footer-plugins-upsell.php:16
+msgid "Check out our other free wordpress.org plugins!"
+msgstr "Pozrite si ďalšie naše bezplatné pluginy na wordpress.org!"
+
+#. Plugin Name of the plugin
+#: app/class-admin.php:271 app/class-media-library.php:308
+#: app/class-media-library.php:529
+#: core/integrations/nextgen/class-admin.php:121
+#: core/integrations/nextgen/class-admin.php:123
+#: core/integrations/nextgen/class-admin.php:310 wp-smush.php:384
+msgid "Smush"
+msgstr "Smush"
+
+#: app/class-admin.php:271 app/class-admin.php:310
+#: app/pages/class-dashboard.php:118 app/pages/class-dashboard.php:358
+#: app/views/directory/meta-box.php:43
+msgid "Smush Pro"
+msgstr "Smush Pro"
+
+#: app/common/footer-plugins-upsell.php:48
+msgid "Customize Titles & Metadata, OpenGraph, Twitter & Pinterest Support, Auto-Keyword Linking, SEO & Readability Analysis, Sitemaps, URL Crawler & more."
+msgstr "Prispôsobte Nadpisy & Metadáta, OpenGraph, Twitter & Pinterest Support, Auto-Keyword Linking, SEO & Readability Analysis, Sitemaps, URL Crawler & ďalšie."
+
+#: app/common/footer-plugins-upsell.php:47
+msgid "SmartCrawl Search Engine Optimization"
+msgstr "Optimalizácia SmartCrawl"
+
+#: app/common/footer-plugins-upsell.php:36
+msgid "Security Tweaks & Recommendations, File & Malware Scanning, Login & 404 Lockout Protection, Two-Factor Authentication & more."
+msgstr "Vylepšenia zabezpečenia a odporúčania, skenovanie súborov a škodlivého softvéru, ochrana prihlásenia a blokovania 404, dvojfázové overenie a ďalšie."
+
+#: app/common/footer-plugins-upsell.php:35
+msgid "Defender Security, Monitoring, and Hack Protection"
+msgstr "Zabezpečenie, monitorovanie a ochrana pred hackermi"
+
+#: app/common/footer-plugins-upsell.php:24
+msgid "Performance Tests, File Optimization & Compression, Page, Browser & Gravatar Caching, GZIP Compression, CloudFlare Integration & more."
+msgstr "Testy výkonu, optimalizácia súborov a kompresia, stránky, prehliadač a Gravatar Caching, kompresia GZIP, integrácia CloudFlare a ďalšie."
+
+#: core/modules/class-dir.php:1304
+msgid "Directory smushing requires custom tables and it seems there was an error creating tables. For help, please contact our team on the support forums."
+msgstr "Adresár Smush vyžaduje vlastné tabuľky a zdá sa, že pri vytváraní tabuliek došlo k chybe. Ak potrebujete pomoc, kontaktujte náš tím na fórach podpory"
+
+#: app/class-admin.php:334
+msgid "Smush sends images to the WPMU DEV servers to optimize them for web use. This includes the transfer of EXIF data. The EXIF data will either be stripped or returned as it is. It is not stored on the WPMU DEV servers."
+msgstr "Aplikácia Smush odosiela obrázky na servery WPMU DEV, aby ich optimalizovala pre použitie na webe. Zahŕňa to prenos údajov EXIF. Dáta EXIF budú buď odstránené, alebo vrátené tak, ako sú. Nie sú uložené na WPMU DEV."
+
+#: app/class-admin.php:345
+msgid "Smush uses a third-party email service (Drip) to send informational emails to the site administrator. The administrator's email address is sent to Drip and a cookie is set by the service. Only administrator information is collected by Drip."
+msgstr "Smush používa e-mailovú službu tretej strany (Drip) na odosielanie informačných e-mailov administrátorovi webovej stránky. E-mailová adresa administrátora sa odošle na server Drip a služba nastaví cookie. Drip zhromažďuje iba informácie o administrátorovi."
+
+#: app/class-admin.php:332
+msgid "Note: Smush does not interact with end users on your website. The only input option Smush has is to a newsletter subscription for site admins only. If you would like to notify your users of this in your privacy policy, you can use the information below."
+msgstr "Poznámka: Smush sa nespája s koncovými používateľmi vašej webovej stránke. Jedinou možnosťou vstupu, ktorú má Smush, je odber noviniek pre správcov webovej stránky. Ak by ste o tom chceli informovať svojich používateľov vo svojich zásadách ochrany osobných údajov, môžete použiť informácie uvedené nižšie."
+
+#: app/class-admin.php:330
+msgid "Plugin: Smush"
+msgstr "Plugin: Smush"
+
+#: app/views/bulk/meta-box.php:73
+msgid "Click to start Bulk Smushing images in Media Library"
+msgstr "Kliknutím spustíte hromadnú úpravu obrázkov v knižnici médií"
+
+#: app/views/cdn/disabled-meta-box.php:32
+msgid "GET STARTED"
+msgstr "ZAČÍNAME"
+
+#: app/class-abstract-summary-page.php:280
+#: app/class-abstract-summary-page.php:293
+msgid "Select a directory you'd like to Smush."
+msgstr "Zvoľte adresár ktorý chcete upraviť."
+
+#: app/class-media-library.php:313
+msgid "Smush Stats"
+msgstr "Smush štatistiky"
+
+#: core/class-core.php:313
+msgid "Give us a moment while we sync the stats."
+msgstr "Vydržte chvíľku, kým sa zosynchronizujú štatistiky."
+
+#: app/pages/class-integrations.php:88
+msgid "Note: For this process to happen automatically you need automatic smushing enabled."
+msgstr "Poznámka: Ak chcete, aby bol tento proces automatický, musíte povoliť automatický smushing."
+
+#: app/pages/class-bulk.php:237
+msgid ""
+"Note: This data adds to the size of the image. While this information might be\n"
+"\t\t\t\t\timportant to photographers, it’s unnecessary for most users and safe to remove."
+msgstr ""
+"Poznámka: Tieto údaje zvyšujú veľkosť obrázka. Hoci môžu byť zaujímavé pre fotografov\n"
+"\t\t\t\t\tpre ostatných používateľov sú nepodstatné a je lepšie ich odstrániť."
+
+#: app/common/meta-box-footer.php:35
+msgid "Smush will automatically check for any images that need re-smushing."
+msgstr "Smush automaticky skontroluje všetky obrázky, ktoré je nutné znova upraviť."
+
+#: app/views/nextgen/summary-meta-box.php:49
+msgid "Total savings"
+msgstr "Celková úspora"
+
+#: app/class-abstract-summary-page.php:135
+msgid "Super-Smush Savings"
+msgstr "Super-smushed úspora"
+
+#: core/class-core.php:317
+msgid "Stop current bulk smush process."
+msgstr "Zastaviť proces hromadnej úpravy."
+
+#: app/views/dashboard/summary-meta-box.php:67
+#: app/views/summary/meta-box.php:67
+msgid "Images Resized"
+msgstr "Zmenšených obrázkov"
+
+#: app/class-abstract-summary-page.php:184
+msgid "PNG to JPEG savings"
+msgstr "Úspory pri zmene PNG na JPEG"
+
+#. translators: %1$s; starting a tag, %2$s: ending a tag
+#: app/class-abstract-summary-page.php:146
+msgid "Compress images up to 2x more than regular smush with almost no visible drop in quality. %1$sEnable Super-Smush%2$s"
+msgstr "Komprimujte až 2x viac obrázkov, ako pri bežnom Smushovaní s takmer žiadnym viditeľným poklesom kvality. %1$s Povoľte Super - Smush %2$s"
+
+#: app/views/nextgen/summary-meta-box.php:41
+msgid "Images smushed"
+msgstr "Skomprimované obrázky"
+
+#: app/views/webp/disabled-meta-box.php:25
+msgid "Get started"
+msgstr "Začíname"
+
+#: app/class-abstract-summary-page.php:281
+#: app/class-abstract-summary-page.php:294 app/modals/directory-list.php:46
+msgid "Choose directory"
+msgstr "Vyberte adresár"
+
+#: app/class-abstract-summary-page.php:277
+msgid "Smush images that aren't located in your uploads folder."
+msgstr "Skomprimované obrázky, ktoré sa nenachádzajú vo vašom priečinku nahratých súborov."
+
+#: core/class-configs.php:605 core/integrations/class-s3.php:185
+msgid "Amazon S3"
+msgstr "Amazon S3"
+
+#: core/class-configs.php:606 core/integrations/class-nextgen.php:127
+msgid "NextGen Gallery"
+msgstr "NextGen Gallery"
+
+#: core/integrations/class-s3.php:184
+msgid "Enable Amazon S3 support"
+msgstr "Zapnúť podporu Amazon S3"
+
+#: app/class-ajax.php:432
+msgid "We haven’t found any images in your media library yet so there’s no smushing to be done! Once you upload images, reload this page and start playing!"
+msgstr "Vo vašej  knižnici medií sme nenašli žiadne obrázky, takže zatiaľ nie je čo optimalizovať. Keď nahráte obrázky, načítajte znovu túto webovú stránku a začnite sa hrať!"
+
+#: app/class-abstract-summary-page.php:274
+msgid "Directory Smush Savings"
+msgstr "Úspory v adresári Smush"
+
+#: core/integrations/class-s3.php:393
+msgid "Amazon S3 support is active."
+msgstr "Podpora Amazon S3 je aktívna."
+
+#: app/views/smush-upgrade-page.php:116 core/class-settings.php:268
+msgid "Auto-convert PNGs to JPEGs (lossy)"
+msgstr "Auto-konvertovanie z PNG na JPEG (stratové)"
+
+#: core/class-settings.php:269
+msgid "PNG to JPEG Conversion"
+msgstr "Konverzia PNG na JPEG"
+
+#: core/class-settings.php:270
+msgid "When you compress a PNG, Smush will check if converting it to JPEG could further reduce its size."
+msgstr "Pri kompresii PNG Smush skontroluje, či jeho prevod do formátu JPEG môže ďalej znižovať jeho veľkosť."
+
+#: app/modals/onboarding.php:42 app/modals/onboarding.php:143
+msgid "Full Size Images"
+msgstr "Obrázky v plnej veľkosti"
+
+#: core/class-settings.php:230
+msgid "When you upload images to your site, we will automatically optimize and compress them for you."
+msgstr "Keď nahráte obrázky na svoju web stránku, my ich bude automaticky optimalizovať a zmenšovať."
+
+#: app/pages/class-bulk.php:125
+msgid "Max height"
+msgstr "Maximálna výška"
+
+#: app/pages/class-bulk.php:113
+msgid "Max width"
+msgstr "Maximálna šírka"
+
+#. translators: %1$s: strong tag, %2$d: max width size, %3$s: tag, %4$d: max
+#. height size, %5$s: closing strong tag
+#: app/pages/class-bulk.php:138
+msgid "Currently, your largest image size is set at %1$s%2$dpx wide %3$s %4$dpx high%5$s."
+msgstr "Vaša maximálna veľkosť obrázkov je momentálne nastavená na %1$s%2$dpx na šírku a %3$s %4$dpx na výšku%5$s."
+
+#: core/modules/class-dir.php:309
+msgid "Image couldn't be optimized"
+msgstr "Obrázok sa nepodarilo zoptimalizovať"
+
+#: core/modules/class-dir.php:257
+msgid "Incorrect image id"
+msgstr "Nesprávne ID obrázka"
+
+#: core/modules/class-dir.php:922
+msgid "We could not find any images in the selected directory."
+msgstr "V zvolenom priečinku sme nenašli žiadne obrázky."
+
+#: app/views/directory/meta-box.php:29
+msgid "CHOOSE DIRECTORY"
+msgstr "VYBERTE PRIEČINOK"
+
+#: app/class-abstract-summary-page.php:236
+#: app/class-abstract-summary-page.php:287
+msgid "Updating Stats"
+msgstr "Aktualizujem štatistiky"
+
+#: core/class-core.php:310
+msgid "Ajax Error"
+msgstr "Ajaxová chyba"
+
+#: app/class-media-library.php:467
+msgid "Already optimized"
+msgstr "Už zoptimalizované"
+
+#: core/class-core.php:308
+msgid "images could not be smushed."
+msgstr "obrázky nemôžu byť optimalizované."
+
+#: core/class-core.php:307
+msgid "image could not be smushed."
+msgstr "obrázok nemôže byť optimalizovaný."
+
+#: core/class-core.php:305
+msgid "Missing file path."
+msgstr "Chýba cesta k súboru."
+
+#: app/views/nextgen/meta-box-header.php:26
+msgid "Manage Galleries"
+msgstr "Spravovať galérie"
+
+#: app/class-abstract-page.php:200
+msgid "Smush Free was deactivated. You have Smush Pro active!"
+msgstr "Smush Free bol deaktivovaný. Teraz používate Smush Pro!"
+
+#. translators: %1$s - a href opening tag, %2$s - a href closing tag
+#: app/views/nextgen/meta-box-header.php:25
+msgid "Smush individual images via your %1$sManage Galleries%2$s section"
+msgstr "Spracujte konkrétne obrázky v sekcii %1$sSpravovať galérie%2$s"
+
+#. translators: %1$s: opening a tga, %2$s: closing a tag
+#: app/views/nextgen/meta-box.php:32
+msgid "We haven't found any images in your %1$sgallery%2$s yet, so there's no smushing to be done! Once you upload images, reload this page and start playing!"
+msgstr "Vo vašej %1$sgalérii%2$s sme nenašli žiadne obrázky, takže zatiaľ nie je čo optimalizovať. Keď nahráte obrázky, načítajte znovu túto stránku a začnite sa hrať."
+
+#. translators: %1$s: reduced by bytes, %2$s: size format
+#: core/integrations/nextgen/class-stats.php:287
+msgid "Reduced by %1$s (%2$01.1f%%)"
+msgstr "Zredukované o %1$s (%2$01.1f%%)"
+
+#: app/class-media-library.php:876
+msgid "Restore original image"
+msgstr "Obnoviť pôvodný obrázok"
+
+#: app/class-media-library.php:850
+msgid "Smush image including original file"
+msgstr "Spracovať obrázok vrátane originálneho súboru"
+
+#. translators: %s: number of thumbnails
+#: app/class-media-library.php:376
+msgid "When you upload an image to WordPress it automatically creates %s thumbnail sizes that are commonly used in your pages. WordPress also stores the original full-size image, but because these are not usually embedded on your site we don’t Smush them. Pro users can override this."
+msgstr "Keď nahráte obrázok do WordPress, automaticky sa vytvorí %s zmenšených veľkostí, ktoré sú často využívané na vašich stránkach. WordPress si tiež ukladá originál v plnej veľkosti, ale keďže ten sa väčšinou nevyužíva, nespracúvame ho. Pro používatelia môžu toto nastavenie zmeniť."
+
+#: app/class-media-library.php:556
+msgid "Detailed stats for all the image sizes"
+msgstr "Detailné štatistiky pre každú veľkosť obrázku"
+
+#: app/views/integrations/meta-box.php:50
+msgid "Try Smush Pro for FREE"
+msgstr "Vyskúšajte Smush Pro úplne ZADARMO"
+
+#: app/views/bulk/meta-box.php:45 app/views/nextgen/meta-box.php:43
+msgid "UPLOAD IMAGES"
+msgstr "NAHRAŤ OBRÁZKY"
+
+#: app/views/bulk/meta-box.php:74
+msgid "BULK SMUSH NOW"
+msgstr "HROMADNE SPRACOVAŤ TERAZ"
+
+#: app/modals/progress-dialog.php:135
+msgid "CANCEL"
+msgstr "ZRUŠIŤ"
+
+#: app/class-abstract-page.php:695
+msgid "Your settings have been updated!"
+msgstr "Vaše nastavenia boli aktualizované!"
+
+#: core/integrations/class-nextgen.php:535
+msgid "Image not restored, Nonce verification failed."
+msgstr "Obrázok sa nepodarilo obnoviť, zlyhalo overenie nonce."
+
+#: core/integrations/class-nextgen.php:636 core/modules/class-backup.php:584
+msgid "Unable to restore image"
+msgstr "Nepodarilo sa obnoviť obrázok"
+
+#: core/integrations/class-nextgen.php:347
+#: core/integrations/class-nextgen.php:348
+msgid "We couldn't find the metadata for the image, possibly the image has been deleted."
+msgstr "Nepodarilo sa nájsť metadáta k obrázku, je možné, že bol vymazaný."
+
+#: core/integrations/class-nextgen.php:649
+msgid "We couldn't process the image, fields empty."
+msgstr "Nepodarilo sa spracovať obrázok, polia sú prázdne."
+
+#: app/views/nextgen/meta-box.php:71
+msgid "BULK SMUSH"
+msgstr "HROMADNÉ SPRACOVANIE"
+
+#: app/views/bulk/meta-box-header.php:26
+msgid "Media Library"
+msgstr "Knižnica multimédií"
+
+#: app/views/bulk/meta-box.php:33 app/views/nextgen/meta-box.php:26
+msgid "No attachments found - Upload some images"
+msgstr "Žiadne prílohy sa nenašli - Nahrajte nejaké obrázky"
+
+#: app/class-abstract-page.php:610
+msgid "Lets you check if any images can be further optimized. Useful after changing settings."
+msgstr "Umožní vám skontrolovať či môžu byť obrázky ešte viac optimalizované. Užitočné pre prípady, keď zmeníte nastavenia."
+
+#: app/pages/class-bulk.php:158
+msgid "Just to let you know, the height you’ve entered is less than your largest image and may result in pixelation."
+msgstr "Len aby ste vedeli, výška, ktorú ste zadali je menej ako vaša najväčšia veľkosť a môže viesť k rozpixelovaniu."
+
+#. translators: %s: error message
+#: core/integrations/class-nextgen.php:679
+msgid "Unable to smush image, %s"
+msgstr "Nepodarilo sa spracovať obrázok, %s"
+
+#: app/pages/class-bulk.php:150
+msgid "Just to let you know, the width you've entered is less than your largest image and may result in pixelation."
+msgstr "Len aby ste vedeli, šírka, ktorú ste zadarli je nižšie ako váš najväčší obrázok, čo môže viesť k rozpixelovaniu."
+
+#. translators: %1$s - a href opening tag, %2$s - a href closing tag
+#: app/views/bulk/meta-box-header.php:25
+msgid "Smush individual images via your %1$sMedia Library%2$s"
+msgstr "Spracujte konkrétne obrázky cez vašu %1$sknižnicu multimédií%2$s"
+
+#: app/common/progress-bar.php:25
+msgid "Bulk smush is currently running. You need to keep this page open for the process to complete."
+msgstr "Hromadné spracovanie práve beží. Aby sa proces úspešne dokončil, ponechajte toto okno otvorené."
+
+#. translators: %s: total number of images
+#: core/modules/class-dir.php:1227
+msgid "You've smushed %d images in total."
+msgstr "Spracovali ste dokopy %d obrázkov."
+
+#: app/class-ajax.php:388 core/integrations/class-nextgen.php:658
+msgid "Image couldn't be smushed as the nonce verification failed, try reloading the page."
+msgstr "Obrázok nemôže byť spracovaný, pretože sa nepodarilo overiť nonce. Vyskúšajte znovu načítať stránku."
+
+#: app/class-ajax.php:379
+msgid "Image not smushed, fields empty."
+msgstr "Obrázky neboli spracované, polia sú prázdne."
+
+#: app/views/bulk/meta-box.php:40
+msgid "We haven’t found any images in your media library yet so there’s no smushing to be done!"
+msgstr "Nenašli sme vo vašej multimediálnej knižnici žiadne obrázky, takže nie je čo spracovať!"
+
+#: app/class-ajax.php:469
+msgid "Yay! All images are optimized as per your current settings."
+msgstr "Jupí! Všetky obrázky boli spracované podľa aktuálnych nastavení."
+
+#: core/integrations/class-nextgen.php:525
+msgid "Error in processing restore action, Fields empty."
+msgstr "Pri obnovovaní sa vyskytla chyba, polia sú prázdne."
+
+#: core/integrations/class-nextgen.php:126
+msgid "Enable NextGen Gallery integration"
+msgstr "Zapnúť prepojenie na NextGen Gallery"
+
+#: core/class-core.php:301 core/integrations/nextgen/class-admin.php:216
+msgid "Restoring image..."
+msgstr "Obnovujem obrázok.."
+
+#: core/class-core.php:302 core/integrations/nextgen/class-admin.php:217
+msgid "Smushing image..."
+msgstr "Spracovávam obrázok.."
+
+#: core/integrations/class-nextgen.php:128
+msgid "Allow smushing images directly through NextGen Gallery settings."
+msgstr "Povolí spracovanie obrázkov priamo cez nastavenia NextGen Gallery."
+
+#: core/class-core.php:300 core/integrations/nextgen/class-admin.php:215
+msgid "All images are fully optimized."
+msgstr "Všetky obrázky sú plne optimalizované."
+
+#: core/class-core.php:304
+msgid "Your membership couldn't be verified."
+msgstr "Vaše členstvo sa nepodarilo overiť."
+
+#: app/class-ajax.php:356
+msgid "Attachment Skipped - Check `wp_smush_image` filter."
+msgstr "Prílohy boli preskočené - Skontrolujte filter `wp_smush_image`."
+
+#: core/class-core.php:303
+msgid "We successfully verified your membership, all the Pro features should work completely. "
+msgstr "Úspešne sme overili vaše členstvo, takže všetky Pro funkcie by mali naplno fungovať."
+
+#. translators: %1$s - <a>, %2$s - </a>
+#: app/class-abstract-page.php:715
+msgid "You have images that need smushing. %1$sBulk smush now!%2$s"
+msgstr "Niektoré vaše obrázky potrebujú spracovať. %1$sSpracujte ich hromadne hneď teraz!%2$s"
+
+#: app/class-abstract-page.php:245
+msgid "Install Plugin"
+msgstr "Inštalovať plugin"
+
+#: app/pages/class-bulk.php:568
+msgid "New"
+msgstr "Nová"
+
+#: core/class-settings.php:228
+msgid "Automatically compress my images on upload"
+msgstr "Automaticky spracovať moje obrázky pri nahrávaní"
+
+#: app/class-abstract-page.php:668 app/class-admin.php:485
+#: app/pages/class-directory.php:176 app/pages/class-directory.php:177
+#: core/class-core.php:324 core/external/free-dashboard/module.php:496
+#: core/external/plugin-notice/notice.php:485
+msgid "Dismiss"
+msgstr "Zrušiť"
+
+#: core/class-settings.php:243
+msgid "Resize original images"
+msgstr "Zmeniť veľkosť originálov"
+
+#: app/views/dashboard/cdn/meta-box.php:30
+#: app/views/dashboard/lazy-load-meta-box.php:24
+#: app/views/dashboard/webp/meta-box.php:29
+#: app/views/lazyload/disabled-meta-box.php:27
+msgid "Activate"
+msgstr "Aktivovať"
+
+#: core/class-settings.php:233
+msgid "Super-Smush my images"
+msgstr "Super-Smush mojich obrázkov"
+
+#: app/class-admin.php:222 app/class-admin.php:302 app/pages/class-bulk.php:69
+#: _src/react/modules/configs.jsx:150
+#: app/assets/js/smush-react-configs.min.js:6376
+msgid "Settings"
+msgstr "Nastavenia"
+
+#: app/common/meta-box-footer.php:17
+msgid "Save changes"
+msgstr "Uložiť nastavenia"
+
+#: core/external/free-dashboard/module.php:435
+#: core/external/free-dashboard/module.php:491
+msgid "Thanks :)"
+msgstr "Ďakujeme :)"
+
+#: core/external/free-dashboard/module.php:440
+msgid "No thanks"
+msgstr "Nie, ďakujem"
+
+#: app/class-media-library.php:316 app/class-media-library.php:712
+#: core/integrations/nextgen/class-stats.php:547
+msgid "Savings"
+msgstr "Úspory"
+
+#: app/class-media-library.php:315 app/class-media-library.php:711
+#: core/integrations/nextgen/class-stats.php:546
+msgid "Image size"
+msgstr "Veľkosť obrázku"
+
+#: core/integrations/nextgen/class-stats.php:319
+msgid "Smush stats"
+msgstr "Štatistiky kompresie"
+
+#. Author of the plugin
+msgid "WPMU DEV"
+msgstr "WPMU DEV"
+
+#: app/class-media-library.php:356
+msgid "Smush Now!"
+msgstr "Spracovať teraz!"
+
+#: app/class-media-library.php:408 app/class-media-library.php:461
+#: app/class-media-library.php:671 core/class-core.php:322
+#: core/class-rest.php:82 core/integrations/nextgen/class-admin.php:304
+msgid "Not processed"
+msgstr "Nespracované"
+
+#: core/class-core.php:309 core/integrations/nextgen/class-stats.php:273
+#: core/integrations/nextgen/class-stats.php:276
+msgid "Already Optimized"
+msgstr "Už optimalizované"
+
+#: core/modules/class-smush.php:471
+msgid "Image couldn't be smushed"
+msgstr "Obrázok nemôže byť spracovaný"
+
+#: core/modules/class-smush.php:446
+msgid "Smush data corrupted, try again."
+msgstr "Dáta o optimalizácii sa poškodili, skúste znovu."
+
+#. translators: %s error message
+#: core/modules/class-smush.php:421
+msgid "Error posting to API: %s"
+msgstr "Chyba pri odosielaní do API: %s"
+
+#: core/modules/class-smush.php:309
+msgid "Unknown API error"
+msgstr "Neznáma API chyba"
+
+#. translators: %s: directory name
+#: core/modules/class-smush.php:270
+msgid "%s is not writable"
+msgstr "Do %s nie je možné zapisovať"
+
+#. translators: %s: file path
+#: core/modules/class-smush.php:266
+msgid "Could not find %s"
+msgstr "%s sa nedá nájsť"
+
+#: core/modules/class-smush.php:262
+msgid "File path is empty"
+msgstr "Cesta k súboru je prázdna"
+
+#: app/class-ajax.php:340 core/integrations/class-nextgen.php:420
+msgid "No attachment ID was provided."
+msgstr "Nebolo zvolené žiadne ID prílohy."
+
+#: app/class-ajax.php:332 app/class-ajax.php:396
+#: core/integrations/class-nextgen.php:412
+msgid "You don't have permission to work with uploaded files."
+msgstr "Nemáte práva na prácu s nahratými súbormi."
+
+#: core/class-core.php:298 core/integrations/nextgen/class-admin.php:213
+msgid "Smush Now"
+msgstr "Spracovať teraz"
+
+#: app/class-media-library.php:909 core/class-core.php:297
+#: core/class-settings.php:234 core/integrations/nextgen/class-admin.php:212
+#: core/integrations/nextgen/class-stats.php:360
+msgid "Super-Smush"
+msgstr "Super-Smush"
+
+#: core/class-core.php:312
+msgid "All Done!"
+msgstr "Všetko hotovo!"
+
+#: app/class-admin.php:349 app/modals/checking-files.php:46
+#: app/modals/restore-images.php:167 app/modals/webp-delete-all.php:63
+msgid "WP Smush"
+msgstr "WP Smush"
+
+#: core/external/free-dashboard/module.php:439
+#: core/external/free-dashboard/module.php:495
+msgid "Saving"
+msgstr "Ukladám"
+
+#. translators: %1$s: response code, %2$s error message
+#: core/modules/class-smush.php:430
+msgid "Error posting to API: %1$s %2$s"
+msgstr "Chyba pri odosielaní do API: %1$s %2$s"
+
+#: wp-smush.php:368
+msgid "Get Fast!"
+msgstr "Zrýchliť!"
+
+#. Plugin URI of the plugin
+msgid "http://wordpress.org/plugins/wp-smushit/"
+msgstr "http://wordpress.org/plugins/wp-smushit/"
+
+#: app/views/nextgen/summary-meta-box.php:65
+msgid "Super-Smushed images"
+msgstr "Super-zmenšené obrázky"
+
+#. translators: %1$s: image size, %2$s: image name
+#: core/modules/class-smush.php:281
+msgid "Skipped (%1$s), image not found"
+msgstr "Vynechané (%1$s), obrázok sa nenašiel"
+
+#. translators: %1$s: image size, %2$s: image name
+#: core/modules/class-smush.php:285
+msgid "Skipped (%1$s), size limit exceeded"
+msgstr "Vynechané (%1$s), prekročený limit veľkosti"
+
+#: app/class-media-library.php:355 app/class-media-library.php:448
+msgid "Smushing in progress..."
+msgstr "Prebieha spracovanie..."
